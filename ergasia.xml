@@ -43,8 +43,6 @@
 	<!ELEMENT offer (validity_period, contract_commitment, bonus*)>
 	<!ELEMENT validity_period EMPTY>
 	<!ELEMENT bonus (#PCDATA)>
-
-
 	<!ATTLIST telecom_service_provider brand_name CDATA #REQUIRED>
 	<!ATTLIST telecom_service_provider establishment_year CDATA #REQUIRED>
 	<!ATTLIST program code ID #REQUIRED>
