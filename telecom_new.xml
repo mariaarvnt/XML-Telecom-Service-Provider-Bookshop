@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE telecom_service_provider [
+	<!ELEMENT telecom_service_provider (program_list, combinational_program_offer_list)>
+	<!ELEMENT program_list (program)+>
+	<!ELEMENT combinational_program_offer_list (combinational_program_offer)*>
+	<!ELEMENT program (program_name, secondary_mobile_categ?, secondary_home_teleph_and_internet_categ?,
+	program_services_package, contract_commitment,(new_sim|new_router|new_decoder)?, benefits_list, prices_list, additional_charges_list?, offers_list?)>
+	<!ELEMENT program_name (#PCDATA)>
+	<!ELEMENT secondary_mobile_categ EMPTY>
+	<!ELEMENT secondary_home_teleph_and_internet_categ EMPTY>
+	<!ELEMENT program_services_package (data?, mobile_calls_same?, home_calls_same?, home_national_calls_a?,
+	home_national_calls?, mobile_national_calls?, remaining?, international_calls?, sms_same?, sms_national?, sms_international?,
+	TV_channels?, speed?)>
+	<!ELEMENT contract_commitment (#PCDATA)>
+	<!ELEMENT new_sim EMPTY>
+	<!ELEMENT new_router (#PCDATA)>
+	<!ELEMENT new_decoder (#PCDATA)>
+	<!ELEMENT data (#PCDATA)>
+	<!ELEMENT mobile_calls_same (#PCDATA)>
+	<!ELEMENT home_calls_same (#PCDATA)>
+	<!ELEMENT home_national_calls_a (#PCDATA)>
+	<!ELEMENT home_national_calls (#PCDATA)>
+	<!ELEMENT mobile_national_calls (#PCDATA)>
+	<!ELEMENT remaining (#PCDATA)>
+	<!ELEMENT sms_same (#PCDATA)>
+	<!ELEMENT sms_national (#PCDATA)>
+	<!ELEMENT sms_international (#PCDATA)> 
+	<!ELEMENT international_calls (#PCDATA|countries)*>
+	<!ELEMENT TV_channels EMPTY>
+	<!ELEMENT benefits_list (benefit)*>
+	<!ELEMENT benefit (#PCDATA)> 
+	<!ELEMENT additional_charges_list (activation_fees?, installation_fees?)>
+	<!ELEMENT prices_list (new_client_prices?, old_client_prices?, company_prices?)>
+	<!ELEMENT speed (#PCDATA)>
+	<!ELEMENT countries (country_name)+>
+	<!ELEMENT country_name (#PCDATA)>
+	<!ELEMENT activation_fees (#PCDATA)>
+	<!ELEMENT installation_fees (#PCDATA)>
+	<!ELEMENT new_client_prices (#PCDATA)>
+	<!ELEMENT old_client_prices (#PCDATA)>
+	<!ELEMENT company_prices (#PCDATA)>
+	<!ELEMENT combinational_program_offer (validity_period, offer_contract_commitment, bonus*)>
+	<!ELEMENT validity_period EMPTY>
+	<!ELEMENT offer_contract_commitment (#PCDATA)>
+	<!ELEMENT bonus (#PCDATA)>
+	<!ATTLIST telecom_service_provider brand_name CDATA #REQUIRED>
+	<!ATTLIST telecom_service_provider establishment_year CDATA #REQUIRED>
+	<!ATTLIST program code ID #REQUIRED>
+	<!ATTLIST program_name category (mobile|home_teleph_and_internet|TV) "mobile">
+	<!ATTLIST program_name belongsto CDATA #REQUIRED>
+	<!ATTLIST secondary_mobile_categ value_info_m (contract|card_program|prepaid) #REQUIRED>
+	<!ATTLIST secondary_home_teleph_and_internet_categ value_info_h (GigaFiber|VDSL|ADSL) #REQUIRED>
+	<!ATTLIST countries consumption (mobile|home|home_and_mobile) "home">
+	<!ATTLIST new_sim provides_new_sim (yes|no) "no">
+	<!ATTLIST new_sim new_sim_price CDATA #IMPLIED>
+	<!ATTLIST new_router router_model CDATA #REQUIRED>
+	<!ATTLIST new_decoder decoder_model CDATA #REQUIRED>
+    <!ATTLIST TV_channels channel_number (yes|no) #REQUIRED>
+	<!ATTLIST TV_channels kids_program (yes|no) #REQUIRED>
+	<!ATTLIST TV_channels sports (yes|no) #REQUIRED>
+	<!ATTLIST TV_channels filmcase (yes|no) "no">
+	<!ATTLIST benefits_list benefits_number CDATA #REQUIRED>
+	<!ATTLIST new_client_prices new_client CDATA #REQUIRED>
+	<!ATTLIST old_client_prices old_client CDATA #REQUIRED>
+	<!ATTLIST company_prices company CDATA #REQUIRED>
+	<!ATTLIST combinational_program_offer offer_program_code IDREF #REQUIRED>
+	<!ATTLIST combinational_program_offer offer_price CDATA #REQUIRED>
+	<!ATTLIST combinational_program_offer VAT_price CDATA #REQUIRED>
+	<!ATTLIST combinational_program_offer client (new_client|old_client|company) #REQUIRED>
+	<!ATTLIST validity_period from CDATA #REQUIRED>
+	<!ATTLIST validity_period to CDATA #REQUIRED>
+	<!ATTLIST bonus bonus_category CDATA #IMPLIED>
+   
+    <!ENTITY iphone12pm_pic SYSTEM "iphone-twelve-pro-max.jpeg" NDATA jpeg>
+    <!NOTATION jpeg SYSTEM "image/jpeg">
+    <!ATTLIST bonus bonus_pic ENTITY #IMPLIED>
+]>
+<telecom_service_provider brand_name="Everywhere" establishment_year="1999">
+	<program_list>
+		<program code="M1"> 
+			<program_name category="mobile" belongsto="BDCOM">
+				Mobile Start 1
+			</program_name>
+			<secondary_mobile_categ value_info_m="contract"/>
+			<program_services_package>
+				<data>
+					2500MB
+				</data>
+				<mobile_calls_same>
+					750
+				</mobile_calls_same>
+				<home_calls_same>
+					150
+				</home_calls_same>
+				<home_national_calls_a>
+					100
+				</home_national_calls_a>
+				<international_calls>
+					50
+					<countries consumption="mobile">
+						<country_name>
+							England
+						</country_name>
+					</countries>
+				</international_calls>
+				<sms_same>
+					80
+				</sms_same>
+				<sms_national>
+					20
+				</sms_national>
+				<sms_international>
+					10
+				</sms_international>	
+			</program_services_package>
+			<contract_commitment>
+				24 months
+			</contract_commitment>
+			<new_sim provides_new_sim="yes" new_sim_price="5"/>
+			<benefits_list benefits_number="2">
+				<benefit>
+					1+1 deals for restaurants, museums, etc
+				</benefit>
+				<benefit>
+					24hour service
+				</benefit>
+			</benefits_list>
+			<prices_list/>
+
+		</program>
+
+		<program code="H1">
+			<program_name category="home_teleph_and_internet" belongsto="BBCOH">
+				Home Start 1
+			</program_name>
+			<secondary_home_teleph_and_internet_categ value_info_h="GigaFiber"/>
+			<program_services_package>
+				<home_national_calls>
+					100
+				</home_national_calls>
+				<mobile_national_calls>
+					500
+				</mobile_national_calls>
+				<international_calls>
+					50
+					<countries consumption="home_and_mobile">
+						<country_name>
+							England
+						</country_name>
+						<country_name>
+							Switzerland
+						</country_name>
+					</countries>
+				</international_calls>
+				<speed>
+					30Μbps
+				</speed>
+			</program_services_package>
+				<contract_commitment>
+					24 months
+				</contract_commitment>	
+				<benefits_list benefits_number="2">
+				<benefit>
+					fixed costs
+				</benefit>
+				<benefit>
+					additional call security
+				</benefit>
+			</benefits_list>
+			<prices_list/>
+		</program>
+
+	</program_list>
+
+	<combinational_program_offer_list>
+		<combinational_program_offer  offer_program_code="M1" offer_price="35.99" VAT_price="24%" client="old_client">
+			<validity_period from="01012021" to="01012022"/>
+			<offer_contract_commitment>
+				48 months
+			</offer_contract_commitment>
+			<bonus bonus_category="device" bonus_pic="iphone12pm_pic">
+				iPhone 12 Pro Max
+			</bonus>
+		</combinational_program_offer>
+		
+	</combinational_program_offer_list>
+
+</telecom_service_provider>
+
