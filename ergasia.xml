@@ -39,9 +39,9 @@
 	<!ELEMENT new_client_prices (#PCDATA)>
 	<!ELEMENT old_client_prices (#PCDATA)>
 	<!ELEMENT company_prices (#PCDATA)>
-	<!ELEMENT offers_list (program+, offer*)>
-	<!ELEMENT offer (validity_period, contract_commitment, bonus*)>
+	<!ELEMENT combinational_program_offer (validity_period, offer_contract_commitment, bonus*)>
 	<!ELEMENT validity_period EMPTY>
+	<!ELEMENT offer_contract_commitment (#PCDATA)>
 	<!ELEMENT bonus (#PCDATA)>
 	<!ATTLIST telecom_service_provider brand_name CDATA #REQUIRED>
 	<!ATTLIST telecom_service_provider establishment_year CDATA #REQUIRED>
@@ -55,7 +55,7 @@
 	<!ATTLIST new_sim new_sim_price CDATA #IMPLIED>
 	<!ATTLIST new_router router_model CDATA #REQUIRED>
 	<!ATTLIST new_decoder decoder_model CDATA #REQUIRED>
-    	<!ATTLIST TV_channels channel_number (yes|no) #REQUIRED>
+    <!ATTLIST TV_channels channel_number (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels kids_program (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels sports (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels filmcase (yes|no) "no">
@@ -63,10 +63,10 @@
 	<!ATTLIST new_client_prices new_client CDATA #REQUIRED>
 	<!ATTLIST old_client_prices old_client CDATA #REQUIRED>
 	<!ATTLIST company_prices company CDATA #REQUIRED>
-	<!ATTLIST offer offer_program_code IDREF #REQUIRED>
-	<!ATTLIST offer offer_price CDATA #REQUIRED>
-	<!ATTLIST offer VAT_price CDATA #REQUIRED>
-	<!ATTLIST offer client (new_client|old_client|company) #REQUIRED>
+	<!ATTLIST combinational_program_offer offer_program_code IDREF #REQUIRED>
+	<!ATTLIST combinational_program_offer offer_price CDATA #REQUIRED>
+	<!ATTLIST combinational_program_offer VAT_price CDATA #REQUIRED>
+	<!ATTLIST combinational_program_offer client (new_client|old_client|company) #REQUIRED>
 	<!ATTLIST validity_period from CDATA #REQUIRED>
 	<!ATTLIST validity_period to CDATA #REQUIRED>
 	<!ATTLIST bonus bonus_category CDATA #IMPLIED>
@@ -170,7 +170,15 @@
 	</program_list>
 
 	<combinational_program_offer_list>
-
+		<combinational_program_offer  offer_program_code="M1" offer_price="35.99" VAT_price="24%" client="old_client">
+			<validity_period from="01012021" to="01012022"/>
+			<offer_contract_commitment>
+				48 months
+			</offer_contract_commitment>
+			<bonus bonus_category="device">
+				iPhone 12 Pro Max
+			</bonus>
+		</combinational_program_offer>
 	</combinational_program_offer_list>
 
 </telecom_service_provider>
