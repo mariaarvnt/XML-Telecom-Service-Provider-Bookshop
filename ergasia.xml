@@ -30,7 +30,8 @@
 	<!ELEMENT benefits_list (benefit)*>
 	<!ELEMENT benefit (#PCDATA)> 
 	<!ELEMENT additional_charges_list (activation_fees?, installation_fees?)>
-	<!ELEMENT prices_list (new_client_prices?, old_client_prices?, company_prices?)>
+	<!ELEMENT prices_list (client_prices)*>
+	<!ELEMENT client_prices (#PCDATA)>
 	<!ELEMENT speed (#PCDATA)>
 	<!ELEMENT countries (country_name)+>
 	<!ELEMENT country_name (#PCDATA)>
@@ -60,13 +61,11 @@
 	<!ATTLIST TV_channels sports (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels filmcase (yes|no) "no">
 	<!ATTLIST benefits_list benefits_number CDATA #REQUIRED>
-	<!ATTLIST new_client_prices new_client CDATA #REQUIRED>
-	<!ATTLIST old_client_prices old_client CDATA #REQUIRED>
-	<!ATTLIST company_prices company CDATA #REQUIRED>
 	<!ATTLIST combinational_program_offer offer_program_code IDREF #REQUIRED>
 	<!ATTLIST combinational_program_offer offer_price CDATA #REQUIRED>
 	<!ATTLIST combinational_program_offer VAT_price CDATA #REQUIRED>
 	<!ATTLIST combinational_program_offer client (new_client|old_client|company) #REQUIRED>
+	<!ATTLIST client_prices client (new_client|old_client|company) #REQUIRED>
 	<!ATTLIST validity_period from CDATA #REQUIRED>
 	<!ATTLIST validity_period to CDATA #REQUIRED>
 	<!ATTLIST bonus bonus_category CDATA #IMPLIED>
@@ -122,7 +121,14 @@
 					24hour service
 				</benefit>
 			</benefits_list>
-			<prices_list/>
+			<prices_list>
+				<client_prices client="new_client">
+					25.99
+				</client_prices>
+				<client_prices client="company">
+					22.99
+				</client_prices>
+			</prices_list>
 
 		</program>
 
@@ -164,7 +170,18 @@
 					additional call security
 				</benefit>
 			</benefits_list>
-			<prices_list/>
+			<prices_list>
+				<client_prices client="new_client">
+					35.99
+				</client_prices>
+				<client_prices client="old_client">
+					37.99
+				</client_prices>
+				<client_prices client="company">
+					34.99
+				</client_prices>
+			</prices_list>
+
 		</program>
 
 	</program_list>
