@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="programs_present1.xsl"?>
+
+<?xml-stylesheet type="text/xsl" href="programs_present2.xsl"?>
 <!DOCTYPE telecom_service_provider [
 	<!ELEMENT telecom_service_provider (program_list, combinational_program_offer_list)>
 	<!ELEMENT program_list (program)+>
@@ -180,6 +181,67 @@
 				</client_prices>
 				<client_prices client="company">
 					34.99
+				</client_prices>
+			</prices_list>
+
+		</program>
+		<program code="M2">
+			<program_name category="mobile" belongsto="DCDOM">
+				Mobile Plus 1
+			</program_name>
+			<secondary_mobile_categ value_info_m="card_program"/>
+			<program_services_package>
+				<data>
+					3500MB
+				</data>
+				<mobile_calls_same>
+					800
+				</mobile_calls_same>
+				<home_calls_same>
+					200
+				</home_calls_same>
+				<home_national_calls_a>
+					150
+				</home_national_calls_a>
+				<international_calls>
+					55
+					<countries consumption="mobile">
+						<country_name>
+							England
+						</country_name>
+						<country_name>
+							France
+						</country_name>
+					</countries>
+				</international_calls>
+				<sms_same>
+					85
+				</sms_same>
+				<sms_national>
+					25
+				</sms_national>
+				<sms_international>
+					15
+				</sms_international>
+			</program_services_package>
+			<contract_commitment>
+				24 months
+			</contract_commitment>
+			<new_sim provides_new_sim="yes" new_sim_price="5"/>
+			<benefits_list benefits_number="2">
+				<benefit>
+					1+1 deals for restaurants, museums, etc
+				</benefit>
+				<benefit>
+					24hour service
+				</benefit>
+			</benefits_list>
+			<prices_list>
+				<client_prices client="new_client">
+					25.99
+				</client_prices>
+				<client_prices client="company">
+					22.99
 				</client_prices>
 			</prices_list>
 
