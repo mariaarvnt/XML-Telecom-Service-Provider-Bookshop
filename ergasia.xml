@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="programs_present1.xsl"?>
 <!DOCTYPE telecom_service_provider [
 	<!ELEMENT telecom_service_provider (program_list, combinational_program_offer_list)>
 	<!ELEMENT program_list (program)+>
@@ -24,11 +25,11 @@
 	<!ELEMENT remaining (#PCDATA)>
 	<!ELEMENT sms_same (#PCDATA)>
 	<!ELEMENT sms_national (#PCDATA)>
-	<!ELEMENT sms_international (#PCDATA)> 
+	<!ELEMENT sms_international (#PCDATA)>
 	<!ELEMENT international_calls (#PCDATA|countries)*>
 	<!ELEMENT TV_channels EMPTY>
 	<!ELEMENT benefits_list (benefit)*>
-	<!ELEMENT benefit (#PCDATA)> 
+	<!ELEMENT benefit (#PCDATA)>
 	<!ELEMENT additional_charges_list (activation_fees?, installation_fees?)>
 	<!ELEMENT prices_list (client_prices)*>
 	<!ELEMENT client_prices (#PCDATA)>
@@ -73,7 +74,7 @@
 ]>
 <telecom_service_provider brand_name="Everywhere" establishment_year="1999">
 	<program_list>
-		<program code="M1"> 
+		<program code="M1">
 			<program_name category="mobile" belongsto="BDCOM">
 				Mobile Start 1
 			</program_name>
@@ -107,7 +108,7 @@
 				</sms_national>
 				<sms_international>
 					10
-				</sms_international>	
+				</sms_international>
 			</program_services_package>
 			<contract_commitment>
 				24 months
@@ -161,7 +162,7 @@
 			</program_services_package>
 				<contract_commitment>
 					24 months
-				</contract_commitment>	
+				</contract_commitment>
 				<benefits_list benefits_number="2">
 				<benefit>
 					fixed costs
