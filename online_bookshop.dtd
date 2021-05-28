@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE online_bookshop [
+<!ELEMENT online_bookshop (name, author_list, Book_categories,
+Book_secondary_categories, book_list, contact_details)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author_list (author+)>
+<!ELEMENT author EMPTY (auid, name)>
+<!ELEMENT Book_categories (book_category)*>
+<!ELEMENT book_category (#PCDATA) >
+<!ATTLIST category_id>
+<!ELEMENT Book_secondary_categories>
+<!ELEMENT secondary_category>
+<!ELEMENT book_list>
+<!ELEMENT book>
+<!ELEMENT title>
+<!ELEMENT subtitle>
+<!ELEMENT authors>
+<!ELEMENT other_partners>
+<!ELEMENT Illustration>
+<!ELEMENT Translation>
+<!ELEMENT ISBN>
+<!ELEMENT book_descr>
+<!ELEMENT for_ages>
+<!ELEMENT book_characteristics>
+<!ELEMENT dimensions>
+<!ELEMENT publisher>
+<!ELEMENT pages>
+<!ELEMENT weight>
+<!ELEMENT language>
+<!ELEMENT cost_information>
+<!ELEMENT start_value>
+<!ELEMENT end_value>
+<!ELEMENT other_information>
+<!ELEMENT diathesimotita>
+<!ELEMENT contact_details>
+<!ELEMENT address>
+<!ELEMENT tel>
+<!ELEMENT email>
+
+<!ATTLIST online_bookshop free_ship FIXED "Δωρεάν μεταφορικά σε παραγγελίες βιβλίων από 14,50">
+
+
+
+
+]>
