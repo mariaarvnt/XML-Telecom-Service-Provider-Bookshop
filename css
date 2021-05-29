@@ -13,12 +13,13 @@ background-color:red;
 margin-bottom: 6px;
 width: 200px;
 padding: 26;
+border: outset;
 text-align: center;
 font-style:italic;
 font-weight:bold;
 position: absolute;
-top:0;
-left:0;
+top:80;
+left:95;
 }
 title{
 display:block;
