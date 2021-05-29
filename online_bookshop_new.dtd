@@ -10,7 +10,7 @@ Book_secondary_categories, book_list, contact_details)>
 <!ELEMENT Book_secondary_categories (secondary_category)* >
 <!ELEMENT secondary_category (#PCDATA)>
 <!ELEMENT book_list (book)+ >
-<!ELEMENT book (book_authors, ISBN, book_descr, book_characteristics, cost_information, other_information)>
+<!ELEMENT book (book_titles_info, book_authors, ISBN, book_descr, book_characteristics, cost_information, other_information)>
 
 <!ELEMENT book_titles_info EMPTY>
 <!ATTLIST book_titles_info subtitle CDATA #IMPLIED>
@@ -50,15 +50,17 @@ Book_secondary_categories, book_list, contact_details)>
 <!ATTLIST secondary_category sub_cat ID #REQUIRED>
 <!ATTLIST secondary_category category IDREFS #REQUIRED>
 <!ATTLIST book book_id ID #REQUIRED>
-<!ATTLIST secondary_category bcategory IDREFS #REQUIRED>
+<!ATTLIST book b_category IDREFS #REQUIRED>
+
 <!ATTLIST book_authors author_id IDREFS #REQUIRED>
 <!ATTLIST dimensions unit CDATA #FIXED "cm">
+
 <!ATTLIST publisher publisher_year CDATA #REQUIRED>
 <!ATTLIST publisher publishing_country CDATA #IMPLIED>
-<!ATTLIST weight w_unit ("pounds"|"gr") "gr">
+<!ATTLIST weight w_unit (pounds|gr) "gr">
 <!ATTLIST start_value currency CDATA "euro">
 <!ATTLIST end_value currency CDATA "euro">
 <!ATTLIST end_value percent_of_discount CDATA #IMPLIED>
-<!ATTLIST end_value with_discount ("yes"|"no") "no">
+<!ATTLIST end_value with_discount (yes|no) "no">
 <!ATTLIST diathesimotita apostoli_se CDATA #IMPLIED>
 ]>
