@@ -11,66 +11,61 @@
 		<author auid="A6" aname="Laura Lemay"/>	
 		<author auid="A7" aname="Jennifer Kyrnin"/>	
 		<author auid="A8" aname="Glass Russel"/>	
-		<author auid="V9" aname="Callahan Sean"/>	
+		<author auid="A9" aname="Callahan Sean"/>	
 		<author auid="A10" aname="Petzold Charles"/>
 		<author auid="A11" aname="ΜΠΑΜΠΕΤΑ ΙΩΑΝΝΑ"/>
 		<author auid="A12" aname="ΕΞΥΠΕΡΙ ΑΝΤΟΥΑΝ ΝΤΕ ΣΑΙΝΤ"/>
 		<author auid="A13" aname="ΜΑΝΔΗΛΑΡΑΣ ΦΙΛΙΠΠΟΣ"/>			
 	</author_list>
 	<Book_categories>
-		<book_category category_id="Κ1">Λογοτεχνία</book_category>
-		<book_category category_id="Κ2">Παιδικά</book_category>
-		<book_category category_id="Κ3">Επιστήμες</book_category>
-		<book_category category_id="Κ4">Παιδαγωγικά</book_category>
-		<book_category category_id="Κ5">Ποίηση</book_category>
-		<book_category category_id="Κ6">Φιλοσοφία</book_category>								
+		<book_category category_id="K1">Λογοτεχνία</book_category>
+		<book_category category_id="K2">Παιδικά</book_category>
+		<book_category category_id="K3">Επιστήμες</book_category>
+		<book_category category_id="K4">Παιδαγωγικά</book_category>
+		<book_category category_id="K5">Ποίηση</book_category>
+		<book_category category_id="K6">Φιλοσοφία</book_category>								
 	</Book_categories>
 	<Book_secondary_categories>
-		<secondary_category sub_cat="S1" category="Κ1">Ελληνική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S2" category="Κ1 K5">Ποίηση</secondary_category>
+		<secondary_category sub_cat="S1" category="K1">Ελληνική Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S2" category="K1 K5">Ποίηση</secondary_category>
 		<secondary_category sub_cat="S3" category="K1">Αστυνομική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S4" category="Κ1">Παγκόσμια Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S5" category="Κ1 K2">Παιδική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S6" category="Κ2">Παραμύθια</secondary_category>
-		<secondary_category sub_cat="S7" category="Κ2">Δραστηριότητες</secondary_category>
-		<secondary_category sub_cat="S8" category="Κ2">Προσχολική Ηλικία</secondary_category>
-		<secondary_category sub_cat="S9" category="Κ2">Πάνινα Βιβλία</secondary_category>
+		<secondary_category sub_cat="S4" category="K1">Παγκόσμια Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S5" category="K1 K2">Παιδική Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S6" category="K2">Παραμύθια</secondary_category>
+		<secondary_category sub_cat="S7" category="K2">Δραστηριότητες</secondary_category>
+		<secondary_category sub_cat="S8" category="K2">Προσχολική Ηλικία</secondary_category>
+		<secondary_category sub_cat="S9" category="K2">Πάνινα Βιβλία</secondary_category>
 		<secondary_category sub_cat="S10" category="K2">Εκπαιδευτικά Βιβλία</secondary_category>
-		<secondary_category sub_cat="S11" category="Κ2">Μυθολογία</secondary_category>
-		<secondary_category sub_cat="S12" category="Κ2">Εγκυκλοπαιδικά Βιβλία</secondary_category>
-		<secondary_category sub_cat="S13" category="Κ3">Οικονομία</secondary_category>
-		<secondary_category sub_cat="S14" category="Κ3">Ιατρική</secondary_category>
-		<secondary_category sub_cat="S15" category="Κ3">Μαθηματικά</secondary_category>
-		<secondary_category sub_cat="S16" category="Κ3">Πληροφορική</secondary_category>
-		<secondary_category sub_cat="S17" category="Κ3">Ιστορία</secondary_category>
-		<secondary_category sub_cat="S18" category="Κ3">Αρχιτεκτονική</secondary_category>
-		<secondary_category sub_cat="S19" category="Κ3">Πολιτικές Επιστήμες και Δίκαιο</secondary_category>
+		<secondary_category sub_cat="S11" category="K2">Μυθολογία</secondary_category>
+		<secondary_category sub_cat="S12" category="K2">Εγκυκλοπαιδικά Βιβλία</secondary_category>
+		<secondary_category sub_cat="S13" category="K3">Οικονομία</secondary_category>
+		<secondary_category sub_cat="S14" category="K3">Ιατρική</secondary_category>
+		<secondary_category sub_cat="S15" category="K3">Μαθηματικά</secondary_category>
+		<secondary_category sub_cat="S16" category="K3">Πληροφορική</secondary_category>
+		<secondary_category sub_cat="S17" category="K3">Ιστορία</secondary_category>
+		<secondary_category sub_cat="S18" category="K3">Αρχιτεκτονική</secondary_category>
+		<secondary_category sub_cat="S19" category="K3">Πολιτικές Επιστήμες και Δίκαιο</secondary_category>
 		<secondary_category sub_cat="S20" category="K3">Βιολογία</secondary_category>
-		<secondary_category sub_cat="S21" category="Κ3">Ψυχολογία/Ψυχανάλυση</secondary_category>
-		<secondary_category sub_cat="S22" category="Κ3">Φυσική</secondary_category>
+		<secondary_category sub_cat="S21" category="K3">Ψυχολογία/Ψυχανάλυση</secondary_category>
+		<secondary_category sub_cat="S22" category="K3">Φυσική</secondary_category>
 		<secondary_category sub_cat="S23" category="K3">Χημεία</secondary_category>
-		<secondary_category sub_cat="S24" category="Κ3">Άλλες Επιστήμες</secondary_category>
-		<secondary_category sub_cat="S25" category="Κ4">Διδακτικές</secondary_category>
-		<secondary_category sub_cat="S26" category="Κ4">Παιδοψυχολογία</secondary_category>
-		<secondary_category sub_cat="S27" category="Κ4">Εκπαίδευση</secondary_category>
-		<secondary_category sub_cat="S28" category="Κ4">Παιδαγωγική</secondary_category>
-		<secondary_category sub_cat="S29" category="Κ4">Ειδική Αγωγή</secondary_category>
-		<secondary_category sub_cat="S30" category="Κ5">Ελληνική Ποίηση</secondary_category>
-		<secondary_category sub_cat="S31" category="Κ5">Παγκόσμια Ποίηση</secondary_category>
-		<secondary_category sub_cat="S32" category="Κ6">Αρχαία Ελληνική Φιλοσοφία</secondary_category>
-		<secondary_category sub_cat="S33" category="Κ6">Ιστορία Φιλοσοφίας</secondary_category>
-		<secondary_category sub_cat="S34" category="Κ6">Ανατολική Φιλοσοφία </secondary_category>
-		<secondary_category sub_cat="S35" category="Κ6">Φιλοσοφικά Δοκίμια</secondary_category>
-		<secondary_category sub_cat="S36" category="Κ6">Στοχασμοί</secondary_category>		
+		<secondary_category sub_cat="S24" category="K3">Άλλες Επιστήμες</secondary_category>
+		<secondary_category sub_cat="S25" category="K4">Διδακτικές</secondary_category>
+		<secondary_category sub_cat="S26" category="K4">Παιδοψυχολογία</secondary_category>
+		<secondary_category sub_cat="S27" category="K4">Εκπαίδευση</secondary_category>
+		<secondary_category sub_cat="S28" category="K4">Παιδαγωγική</secondary_category>
+		<secondary_category sub_cat="S29" category="K4">Ειδική Αγωγή</secondary_category>
+		<secondary_category sub_cat="S30" category="K5">Ελληνική Ποίηση</secondary_category>
+		<secondary_category sub_cat="S31" category="K5">Παγκόσμια Ποίηση</secondary_category>
+		<secondary_category sub_cat="S32" category="K6">Αρχαία Ελληνική Φιλοσοφία</secondary_category>
+		<secondary_category sub_cat="S33" category="K6">Ιστορία Φιλοσοφίας</secondary_category>
+		<secondary_category sub_cat="S34" category="K6">Ανατολική Φιλοσοφία </secondary_category>
+		<secondary_category sub_cat="S35" category="K6">Φιλοσοφικά Δοκίμια</secondary_category>
+		<secondary_category sub_cat="S36" category="K6">Στοχασμοί</secondary_category>		
 	</Book_secondary_categories>
-	<contact_details>	
-		<address>Σταδίου 35, Αθήνα</address> 
-		<tel>+30 210 23643666</tel>
-		<email>xyz@outl.books.com</email> 
-	</contact_details>
 	<book_list>
-		<book book_id="B1" bcategory="S36">
-			<book_title>ΗΜΕΡΟΛΟΓΙΟ ΣΟΦΙΑΣ</book_title>
+		<book book_id="B1" b_category="S36">
+			<title>ΗΜΕΡΟΛΟΓΙΟ ΣΟΦΙΑΣ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A1"/>
 			<ISBN>9789607408891</ISBN>
@@ -80,7 +75,7 @@
 			κληρονομιά, μπορούμε να βρούμε κάποια λόγια που θα αγγίξουν τη ψυχή μας και θα μας φέρουν πιο 
 			κοντά στην ουσία των πραγμάτων.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">14x21</dimensions> 
+				<dimensions unit="cm">14x21</dimensions> 
 				<publisher publisher_year="2004">PRINTA</publisher> 
 				<pages>386</pages> 
 				<language>Ελληνικά</language> 
@@ -93,8 +88,8 @@
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B2" bcategory="S3">
-			<book_title>ΤΟ ΔΕΜΑ</book_title>
+		<book book_id="B2" b_category="S3">
+			<title>ΤΟ ΔΕΜΑ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A2"/>
 			<ISBN>9789606054358</ISBN>
@@ -103,7 +98,7 @@
 			Δεν έχεις ακούσει ποτέ ξανά το όνομά του. Κοιτάζεις από τον φράχτη, και ο κήπος του φαίνεται παρατημένος.
 			Δείχνει σαν να μη ζει κάποιος εκεί καιρό τώρα. Κάτι σε σπρώχνει να ανοίξεις το δέμα.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">14x21</dimensions>
+				<dimensions unit="cm">14x21</dimensions>
 				<publisher publisher_year="2018">ΔΙΟΠΤΡΑ</publisher>
 				<pages>392</pages>
 				<language>Ελληνικά</language>
@@ -112,10 +107,12 @@
 				<start_value currency="euro">16,60</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="30">11,60</end_value>
 			</cost_information>
-			<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
+			<other_information>
+				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
+			</other_information>
 		</book>
-		<book book_id="B3" bcategory="S3">
-			<book_title>ΤΟ ΒΑΣΙΛΕΙΟ</book_title>
+		<book book_id="B3" b_category="S3">
+			<title>ΤΟ ΒΑΣΙΛΕΙΟ</title>
 			<subtitle>ΔΥΟ ΑΔΕΡΦΙΑ. ΜΙΑ ΠΟΛΗ. ΤΑ ΣΚΟΤΕΙΝΑ ΜΥΣΤΙΚΑ ΜΙΑΣ ΖΩΗΣ.</subtitle>
 			<book_authors author_id="A2"/>
 			<ISBN>9786180323054</ISBN>
@@ -129,22 +126,21 @@
 			από γεγονότα που απειλούν ό,τι αγαπά και θέλει να διαφυλάξει ο Ρόι… Οικογενειακό χρέος, αναπάντεχες ανατροπές,
 			όλο και περισσότερα πτώματα: ένα εκτυφλωτικό θρίλερ, ένα ακαταμάχητο αναγνωστικό κοκτέιλ.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">14x21</dimensions>
+				<dimensions unit="cm">14x21</dimensions>
 				<publisher publisher_year="2020">ΜΕΤΑΙΧΜΙΟ</publisher>
 				<pages>696</pages>
 				<language>Ελληνικά</language>		
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">19,90</start_value>
-				<end_value with_discount="yes" percent_of_discount="10">17,91</end_value>
-				<with_discount>Ναι</with_discount>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="10">17,91</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B4" bcategory="S1">
-			<book_title>ΒΑΘΥ ΒΕΛΟΥΔΙΝΟ ΣΚΟΤΑΔΙ</book_title>
+		<book book_id="B4" b_category="S1">
+			<title>ΒΑΘΥ ΒΕΛΟΥΔΙΝΟ ΣΚΟΤΑΔΙ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A4"/>
 			<ISBN>9789601426204</ISBN>
@@ -161,7 +157,7 @@
 			αιχμάλωτους σε ένα βαθύ, ατέλειωτο σκοτάδι, ή θα σπάσουν τα δεσμά και θα αντικρίσουν τον ήλιο; Θα πάψει επιτέλους η νύχτα
 			να φαντάζει αιώνια πια;</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">16x24</dimensions>
+				<dimensions unit="cm">16x24</dimensions>
 				<publisher publisher_year="2013">ΛΙΒΑΝΗΣ</publisher>
 				<pages>593</pages>
 				<language>Ελληνικά</language>
@@ -174,8 +170,8 @@
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
 			</other_information>	
 		</book>
-		<book book_id="B5" bcategory="S16">
-			<book_title>ΠΛΗΡΕΣ ΕΓΧΕΙΡΙΔΙΟ HTML 5 CSS &amp; JAVASCRIPT Έκδοση: 7η Έκδοση</book_title>
+		<book book_id="B5" b_category="S16">
+			<title>ΠΛΗΡΕΣ ΕΓΧΕΙΡΙΔΙΟ HTML 5 CSS &amp; JAVASCRIPT Έκδοση: 7η Έκδοση</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A5 A6 A7">
 				<other_partners>
@@ -185,7 +181,7 @@
 			<ISBN>9789605126964</ISBN>
 			<book_descr>Αυτό το εύληπτο, βήμα προς βήμα βιβλίο, έχει αναθεωρηθεί και ενημερωθεί πλήρως με παραδείγματα, τα οποία συμμορφώνονται με την HTML5, το CSS3 και τις σύγχρονες πρακτικές ανάπτυξης για το Web. Σας βοηθά να μάθετε γρήγορα τα βασικά της HTML και του CSS, και κατόπιν προχωρεί σε πιο προηγμένα θέματα, όπως γραφικά, βίντεο και διαδραστικότητα με χρήση της JavaScript. Σε 25 καλογραμμένα κεφάλαια θα αποκτήσετε τις δεξιότητες που χρειάζεστε για να σχεδιάζετε, να δημιουργείτε και να συντηρείτε ιστότοπους με επαγγελματική εμφάνιση. Δεν απαιτείται προηγούμενη εμπειρία. Ακολουθώντας την ροή των κεφαλαίων του βιβλίου μπορείτε να μάθετε τα βασικά της ανάπτυξης για το Web. Μάθετε με τον ρυθμό που σας εξυπηρετεί. Μπορείτε να μελετήσετε κάθε κεφάλαιο με την σειρά, για να βεβαιωθείτε ότι κατανοείτε πλήρως τις αρχές και τις μεθοδολογίες ή να εστιάσετε την προσοχή σας σε συγκεκριμένα κεφάλαια, για να μάθετε τις τεχνικές που σας ενδιαφέρουν περισσότερο. Ελέγξτε τις γνώσεις σας. Κάθε κεφάλαιο ολοκληρώνεται με μια ενότητα Εργασιών, που περιέχει ερωτήσεις, απαντήσεις και ασκήσεις για περαιτέρω μελέτη.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">17x24</dimensions>
+				<dimensions unit="cm">17x24</dimensions>
 				<publisher publisher_year="2016">ΓΚΙΟΥΡΔΑΣ Μ.</publisher>
 				<pages>752</pages>
 				<language>Ελληνικά</language>
@@ -198,18 +194,18 @@
 				<diathesimotita apostoli_se="4-6">Διαθέσιμο κατόπιν παραγγελίας</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B6" bcategory="S16">
-			<book_title>The Big Data-Driven Business</book_title>
+		<book book_id="B6" b_category="S16">
+			<title>The Big Data-Driven Business</title>
 			<subtitle>How to Use Big Data to Win Customers, Beat Competitors, and Boost Profits.</subtitle>
 			<book_authors author_id="A8 A9">
 				<other_partners>
-					<illustration>Illustrations S.A.</illustration>
+					<Illustration>Illustrations S.A.</Illustration>
 				</other_partners>
 			</book_authors>
 			<ISBN>9781118889800</ISBN>
 			<book_descr>The book uses real-life examples-from Nate Silver to Copernicus, and Apple to Blackberry-to demonstrate how the winners of the future will use big data to seek the truth. Written by a marketing journalist and the CEO of a multi-million-dollar B2B marketing platform that reaches more than 90% of the U.S. business population, this book is a comprehensive and accessible guide on how to win customers, beat competitors, and boost the bottom line with big data. The marketplace has entered an era where the customer holds all the cards. With unprecedented choice in both the consumer world and the B2B world, it's imperative that businesses gain a greater understanding of their customers and prospects. Big data is the key to this insight, because it provides a comprehensive view of a company's customers-who they are, and who they may be tomorrow. The Big Data-Driven Business is a complete guide to the future of business as seen through the lens of big data, with expert advice on real-world applications. Learn what big data is, and how it will transform the enterprise Explore why major corporations are betting their companies on marketing technology Read case studies of big data winners and losers Discover how to change privacy and security, and remodel marketing Better information allows for better decisions, better targeting, and better reach. Big data has become an indispensable tool for the most effective marketers in the business, and it's  becoming less of a competitive advantage and more like an industry standard. Remaining relevant as the marketplace evolves requires a full understanding and application of big data, and The Big Data-Driven Business provides the practical guidance businesses need.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">25x2x15</dimensions>
+				<dimensions unit="cm">25x2x15</dimensions>
 				<publisher publisher_year="2014" publishing_country="United States">John Wiley &amp; Sons Inc</publisher>
 				<pages>224</pages>
 				<weight w_unit="gr">666</weight>
@@ -225,14 +221,14 @@
 				<diathesimotita apostoli_se="6-10">Διαθέσιμο κατόπιν παραγγελίας.</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B7" bcategory="S16">
-			<book_title>The Annotated Turing</book_title>
+		<book book_id="B7" b_category="S16">
+			<title>The Annotated Turing</title>
 			<subtitle>A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine.</subtitle>
 			<book_authors author_id="A10"/>
 			<ISBN>9780470229057</ISBN>
 			<book_descr>Programming Legend Charles Petzold unlocks the secrets of the extraordinary and prescient 1936 paper by Alan M. Turing Mathematician Alan Turing invented an imaginary  computer known as the Turing Machine; in an age before computers, he explored the concept of what it meant to be computable, creating the field of computability theory in the process, a foundation of present-day computer programming. The book expands Turing's original 36-page paper with additional background chapters and extensive annotations; the author elaborates on and clarifies many of Turing's statements, making the original difficult-to-read document accessible to present day programmers, computer science majors, math geeks, and others. Interwoven into the narrative are the highlights of Turing's own life: his years at Cambridge and Princeton, his secret work in cryptanalysis during World War II, his involvement in seminal computer projects, his speculations about artificial intelligence, his arrest and prosecution for  the crime of gross indecency, and his early death by apparent suicide at the age of 41.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">23x2x15</dimensions>
+				<dimensions unit="cm">23x2x15</dimensions>
 				<publisher publisher_year="2008" publishing_country="United Kingdom"> John Wiley &amp; Sons Inc</publisher>
 				<pages>384</pages>
 				<weight w_unit="gr">444</weight>
@@ -248,12 +244,12 @@
 				<diathesimotita>Μη διαθέσιμο.</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B8" bcategory="S10 S11">
-			<book_title>ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΟΙ ΑΘΛΟΙ ΤΟΥ ΗΡΑΚΛΗ</book_title>
+		<book book_id="B8" b_category="S10 S11">
+			<title>ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΟΙ ΑΘΛΟΙ ΤΟΥ ΗΡΑΚΛΗ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A11">
 				<other_partners>
-					<illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</illustration>
+					<Illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</Illustration>
 				</other_partners>
 			</book_authors>
 			<ISBN>9786180207446</ISBN>
@@ -262,7 +258,7 @@
 				<for_ages>Για παιδιά 3-8 ετών</for_ages>		
 			</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">25x23</dimensions>
+				<dimensions unit="cm">25x23</dimensions>
 				<publisher publisher_year="2016">ΜΙΝΩΑΣ</publisher>
 				<pages>40</pages>
 				<weight w_unit="gr">0.39</weight>
@@ -276,12 +272,12 @@
 				<diathesimotita apostoli_se="1-3">Άμεσα Διαθέσιμο.</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B9" bcategory="S10 S11">
-			<book_title>ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΔΑΙΔΑΛΟΣ ΚΑΙ ΙΚΑΡΟΣ</book_title>
+		<book book_id="B9" b_category="S10 S11">
+			<title>ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΔΑΙΔΑΛΟΣ ΚΑΙ ΙΚΑΡΟΣ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A11">
 				<other_partners>
-					<illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</illustration>
+					<Illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</Illustration>
 				</other_partners>
 			</book_authors>
 			<ISBN>9786180208849</ISBN>
@@ -290,7 +286,7 @@
 				<for_ages>Για παιδιά 3-8 ετών.</for_ages>	
 			</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">25x23</dimensions>
+				<dimensions unit="cm">25x23</dimensions>
 				<publisher publisher_year="2017">ΜΙΝΩΑΣ</publisher>
 				<pages>40</pages>
 				<language>Ελληνικά</language>
@@ -303,8 +299,8 @@
 				<diathesimotita apostoli_se="1-3"> Άμεσα Διαθέσιμο.</diathesimotita>
 			</other_information>
 		</book>
-		<book book_id="B10" bcategory="S5">
-			<book_title>Ο ΜΙΚΡΟΣ ΠΡΙΓΚΙΠΑΣ</book_title>
+		<book book_id="B10" b_category="S5">
+			<title>Ο ΜΙΚΡΟΣ ΠΡΙΓΚΙΠΑΣ</title>
 			<subtitle></subtitle>
 			<book_authors author_id="A12">
 				<other_partners>
@@ -317,7 +313,7 @@
 				<for_ages>Για παιδιά 9-12 ετών.</for_ages>
 			</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">16x22cm</dimensions>
+				<dimensions unit="cm">16x22cm</dimensions>
 				<publisher publisher_year="1997">ΠΑΤΑΚΗΣ</publisher>
 				<pages>97</pages>
 				<language>Ελληνικά</language>
@@ -331,4 +327,9 @@
 			</other_information>
 		</book>		
 	</book_list>
+	<contact_details>	
+		<address>Σταδίου 35, Αθήνα</address> 
+		<tel>+30 210 23643666</tel>
+		<email>xyz@outl.books.com</email> 
+	</contact_details>
 </online_bookshop>
