@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/css" href="online_bookshop_style.css"?>
-<!DOCTYPE online_bookshop SYSTEM "online_bookshop_new.dtd">
+<!DOCTYPE online_bookshop SYSTEM "online_bookshop_new2.dtd">
 <online_bookshop free_ship="Δωρεάν μεταφορικά σε παραγγελίες βιβλίων από 14,50">
 	<name>XYZ ONLINE BOOKSHOP</name>
 	<author_list>
