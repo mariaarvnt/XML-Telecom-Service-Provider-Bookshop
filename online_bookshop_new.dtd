@@ -57,7 +57,7 @@ Book_secondary_categories, book_list, contact_details)>
 <!ATTLIST publisher publishing_country CDATA #IMPLIED>
 <!ATTLIST weight w_unit ("pounds"|"gr") "gr">
 <!ATTLIST start_value currency CDATA "euro">
-<!ATTLIST start_value currency CDATA "euro">
+<!ATTLIST end_value currency CDATA "euro">
 <!ATTLIST end_value percent_of_discount CDATA #IMPLIED>
 <!ATTLIST end_value with_discount ("yes"|"no") "no">
 <!ATTLIST diathesimotita apostoli_se CDATA #IMPLIED>
