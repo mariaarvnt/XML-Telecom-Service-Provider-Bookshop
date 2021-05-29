@@ -8,7 +8,7 @@
 		</title>
 	</head>
 	<body>
-		<h3 style="color:#b3ccff;">List of books published after 2014</h3>
+		<h3 style="color:#F5A9E1;">List of books published after 2014</h3>
 		<xsl:for-each select="online_bookshop/book_list/book">
 			
 				<ul>
@@ -58,7 +58,7 @@
 						Apostoli se: 
 							<xsl:choose>
 								<xsl:when test = "other_information/diathesimotita/@apostoli_se">
-									<xsl:value-of select = "other_information/diathesimotita/@apostoli_se"/> days
+									<xsl:value-of select = "other_information/diathesimotita/@apostoli_se"/>
 								</xsl:when>
 								<xsl:otherwise>
 									-
