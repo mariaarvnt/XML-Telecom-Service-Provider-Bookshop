@@ -4,12 +4,12 @@
 <html>
     <head>
 		<title>
-			List of tables with information for books
+			Table with information for books
 		</title>
 	</head>
     <body>
-        <h3>List of tables with information for books</h3>
-		<table border="1">
+        <h3 style="color:#4D446F;">Table with information for books</h3>
+		<table border="1" color="#706695">
 			<tr bgcolor="#CCCCFF" align="center">
 				<th>
                    Book Title
