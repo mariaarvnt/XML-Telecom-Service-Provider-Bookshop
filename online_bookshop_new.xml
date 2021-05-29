@@ -86,7 +86,7 @@
 				<language>Ελληνικά</language> 
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">23,32</start_value> 
+				<start_value currency="euro">23.32</start_value> 
 				<end_value currency="euro" with_discount="yes" percent_of_discount="20">18.66</end_value>  
 			</cost_information>
 			<other_information>
@@ -108,7 +108,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">16,60</start_value>
+				<start_value currency="euro">16.60</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="30">11.60</end_value>
 			</cost_information>
 			<other_information>
@@ -135,7 +135,7 @@
 				<language>Ελληνικά</language>		
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">19,90</start_value>
+				<start_value currency="euro">19.90</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="10">17.91</end_value>
 			</cost_information>
 			<other_information>
@@ -165,7 +165,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,90</start_value>
+				<start_value currency="euro">9.90</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="31">6.83</end_value>
 			</cost_information>
 			<other_information>
@@ -188,7 +188,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">52,00</start_value>
+				<start_value currency="euro">52.00</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="10">46.80</end_value>
 			</cost_information>
 			<other_information>
@@ -212,9 +212,9 @@
 				<language>Αγγλικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="usd">27,98</start_value>
-				<start_value currency="euro">23,49</start_value>
-				<end_value currency="usd" with_discount="no">27,98</end_value>
+				<start_value currency="usd">27.98</start_value>
+				<start_value currency="euro">23.49</start_value>
+				<end_value currency="usd" with_discount="no">27.98</end_value>
 				<end_value currency="euro" with_discount="no">23.49</end_value>
 			</cost_information>
 			<other_information>
@@ -234,9 +234,9 @@
 				<language>Αγγλικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="gpb">24,81</start_value>
-				<start_value currency="euro">28,99</start_value>
-				<end_value currency="usd" with_discount="no">24,81</end_value>
+				<start_value currency="gpb">24.81</start_value>
+				<start_value currency="euro">28.99</start_value>
+				<end_value currency="usd" with_discount="no">24.81</end_value>
 				<end_value currency="euro" with_discount="no">28.99</end_value>
 			</cost_information>
 			<other_information>
@@ -263,7 +263,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,99</start_value>
+				<start_value currency="euro">9.99</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6.98</end_value>
 			</cost_information>
 			<other_information>
@@ -289,7 +289,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,99</start_value>
+				<start_value currency="euro">9.99</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6.98</end_value>
 			</cost_information>
 			<other_information>
@@ -315,7 +315,7 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">6,47</start_value>
+				<start_value currency="euro">6.47</start_value>
 				<end_value currency="euro" with_discount="yes" percent_of_discount="31">4.46</end_value>
 			</cost_information>
 			<other_information>
