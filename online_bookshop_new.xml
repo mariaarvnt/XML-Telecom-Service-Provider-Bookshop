@@ -114,7 +114,7 @@
 			<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
 		</book>
 		<book book_id="B3" bcategory="S3">
-			<book_titles_info book_title="ΤΟ ΒΑΣΙΛΕΙΟ" subtitle="ΔΥΟ ΑΔΕΡΦΙΑ. ΜΙΑ ΠΟΛΗ. ΤΑ ΣΚΟΤΕΙΝΑ ΜΥΣΤΙΚΑ ΜΙΑΣ ΖΩΗΣ."/>
+			<book_titles_info title="ΤΟ ΒΑΣΙΛΕΙΟ" subtitle="ΔΥΟ ΑΔΕΡΦΙΑ. ΜΙΑ ΠΟΛΗ. ΤΑ ΣΚΟΤΕΙΝΑ ΜΥΣΤΙΚΑ ΜΙΑΣ ΖΩΗΣ."/>
 			<book_authors author_id="A2"/>
 			<ISBN>9786180323054</ISBN>
 			<book_descr>ΠΑΝΤΑ ΤΟΝ ΠΡΟΣΤΑΤΕΥΕ. Από τα δεκάξι του, που χάθηκαν ξαφνικά οι γονείς τους, ο Ρόι ανέλαβε τη φροντίδα
@@ -134,7 +134,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">19,90</start_value>
-				<end_value with_discount="yes" percent_of_discount="10">17,91</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="10">17,91</end_value>
 				<with_discount>Ναι</with_discount>
 			</cost_information>
 			<other_information>
@@ -165,7 +165,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">9,90</start_value>
-				<end_value with_discount="yes" percent_of_discount="31">6,83</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="31">6,83</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
@@ -188,7 +188,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">52,00</start_value>
-				<end_value  with_discount="yes" percent_of_discount="10">46,80</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="10">46,80</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="4-6">Διαθέσιμο κατόπιν παραγγελίας</diathesimotita>
@@ -263,7 +263,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">9,99</start_value>
-				<end_value with_discount="yes" percent_of_discount="30">6,98</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6,98</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα Διαθέσιμο.</diathesimotita>
@@ -289,7 +289,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">9,99</start_value>
-				<end_value with_discount="yes" percent_of_discount="30">6,98</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6,98</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3"> Άμεσα Διαθέσιμο.</diathesimotita>
@@ -315,7 +315,7 @@
 			</book_characteristics>
 			<cost_information>
 				<start_value currency="euro">6,47</start_value>
-				<end_value with_discount="yes" percent_of_discount="31">4,46</end_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="31">4,46</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα Διαθέσιμο.</diathesimotita>
