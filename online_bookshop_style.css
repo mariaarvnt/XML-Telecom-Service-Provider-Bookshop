@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/css" href="όνομα_αρχείου.css" ?> 
+
 book_list{
 background-color:red;
 width:100%;
@@ -28,7 +27,7 @@ ISBN{
 color: blue;
 font-size: 20pt;
 }
-book_deskr{
+book_descr{
 color: blue;
 font-size: 20pt;
 }
