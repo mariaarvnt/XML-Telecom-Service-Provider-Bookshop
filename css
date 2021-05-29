@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="όνομα_αρχείου.css" ?> 
+book_list{
+background-color:red;
+width:100%;
+}
+book{
+display:block;
+margin-bottom: 6px;
+text-align: center;
+font-style:italic;
+font-weight:bold;
+position: absolute;
+}
+title{
+color: blue;
+font-size: 20pt;
+}
+subtitle{
+color: blue;
+font-size: 20pt;
+}
+book_authors{
+color: blue;
+font-size: 20pt;
+}
+ISBN{
+color: blue;
+font-size: 20pt;
+}
+book_deskr{
+color: blue;
+font-size: 20pt;
+}
+book_charateristics{
+color: blue;
+font-size: 20pt;
+}
+cost_information{
+color: blue;
+font-size: 20pt;
+}
+other_information{
+color: blue;
+font-size: 20pt;
+}
