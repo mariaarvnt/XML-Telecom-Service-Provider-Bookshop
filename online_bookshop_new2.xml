@@ -1,84 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/css" href="online_bookshop_style.css"?>
-<!DOCTYPE online_bookshop SYSTEM "online_bookshop_new2.dtd">
 <online_bookshop free_ship="Δωρεάν μεταφορικά σε παραγγελίες βιβλίων από 14,50">
 	<name>XYZ ONLINE BOOKSHOP</name>
 	<author_list>
-		<author auid="A1" aname="ΤΟΛΣΤΟΙ ΛΕΩΝ"/>
-		<author auid="A2" aname="ΦΙΤΖΕΚ ΣΕΜΠΑΣΤΙΑΝ"/>
-		<author auid="A3" aname="ΝΕΣΜΠΟ ΤΖΟ"/>
-		<author auid="A4" aname="ΕΥΣΤΑΘΙΟΥ ΕΥΑΓΓΕΛΙΑ"/>
-		<author auid="A5" aname="Rafe Colburn"/>
-		<author auid="A6" aname="Laura Lemay"/>
-		<author auid="A7" aname="Jennifer Kyrnin"/>
-		<author auid="A8" aname="Glass Russel"/>
-		<author auid="V9" aname="Callahan Sean"/>
-		<author auid="A10" aname="Petzold Charles"/>
-		<author auid="A11" aname="ΜΠΑΜΠΕΤΑ ΙΩΑΝΝΑ"/>
-		<author auid="A12" aname="ΕΞΥΠΕΡΙ ΑΝΤΟΥΑΝ ΝΤΕ ΣΑΙΝΤ"/>
-		<author auid="A13" aname="ΜΑΝΔΗΛΑΡΑΣ ΦΙΛΙΠΠΟΣ"/>
+		<author auid="A1" aname="ΤΟΛΣΤΟΙ ΛΕΩΝ" awarded="yes"/>	
+		<author auid="A2" aname="ΦΙΤΖΕΚ ΣΕΜΠΑΣΤΙΑΝ" awarded="yes"/>	
+		<author auid="A3" aname="ΝΕΣΜΠΟ ΤΖΟ" awarded="yes"/>	
+		<author auid="A4" aname="ΕΥΣΤΑΘΙΟΥ ΕΥΑΓΓΕΛΙΑ" awarded="no"/>	
+		<author auid="A5" aname="Rafe Colburn" awarded="yes"/>	
+		<author auid="A6" aname="Laura Lemay" awarded="no"/>	
+		<author auid="A7" aname="Jennifer Kyrnin" awarded="no"/>	
+		<author auid="A8" aname="Glass Russel" awarded="yes"/>	
+		<author auid="A9" aname="Callahan Sean" awarded="no"/>	
+		<author auid="A10" aname="Petzold Charles" awarded="yes"/>
+		<author auid="A11" aname="ΜΠΑΜΠΕΤΑ ΙΩΑΝΝΑ" awarded="no"/>
+		<author auid="A12" aname="ΕΞΥΠΕΡΙ ΑΝΤΟΥΑΝ ΝΤΕ ΣΑΙΝΤ" awarded="yes"/>
+		<author auid="A13" aname="ΜΑΝΔΗΛΑΡΑΣ ΦΙΛΙΠΠΟΣ" awarded="no"/>		
 	</author_list>
 	<Book_categories>
-		<book_category category_id="Κ1">Λογοτεχνία</book_category>
-		<book_category category_id="Κ2">Παιδικά</book_category>
-		<book_category category_id="Κ3">Επιστήμες</book_category>
-		<book_category category_id="Κ4">Παιδαγωγικά</book_category>
-		<book_category category_id="Κ5">Ποίηση</book_category>
-		<book_category category_id="Κ6">Φιλοσοφία</book_category>
+		<book_category category_id="K1">Λογοτεχνία</book_category>
+		<book_category category_id="K2">Παιδικά</book_category>
+		<book_category category_id="K3">Επιστήμες</book_category>
+		<book_category category_id="K4">Παιδαγωγικά</book_category>
+		<book_category category_id="K5">Ποίηση</book_category>
+		<book_category category_id="K6">Φιλοσοφία</book_category>								
 	</Book_categories>
 	<Book_secondary_categories>
-		<secondary_category sub_cat="S1" category="Κ1">Ελληνική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S2" category="Κ1 K5">Ποίηση</secondary_category>
+		<secondary_category sub_cat="S1" category="K1">Ελληνική Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S2" category="K1 K5">Ποίηση</secondary_category>
 		<secondary_category sub_cat="S3" category="K1">Αστυνομική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S4" category="Κ1">Παγκόσμια Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S5" category="Κ1 K2">Παιδική Λογοτεχνία</secondary_category>
-		<secondary_category sub_cat="S6" category="Κ2">Παραμύθια</secondary_category>
-		<secondary_category sub_cat="S7" category="Κ2">Δραστηριότητες</secondary_category>
-		<secondary_category sub_cat="S8" category="Κ2">Προσχολική Ηλικία</secondary_category>
-		<secondary_category sub_cat="S9" category="Κ2">Πάνινα Βιβλία</secondary_category>
+		<secondary_category sub_cat="S4" category="K1">Παγκόσμια Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S5" category="K1 K2">Παιδική Λογοτεχνία</secondary_category>
+		<secondary_category sub_cat="S6" category="K2">Παραμύθια</secondary_category>
+		<secondary_category sub_cat="S7" category="K2">Δραστηριότητες</secondary_category>
+		<secondary_category sub_cat="S8" category="K2">Προσχολική Ηλικία</secondary_category>
+		<secondary_category sub_cat="S9" category="K2">Πάνινα Βιβλία</secondary_category>
 		<secondary_category sub_cat="S10" category="K2">Εκπαιδευτικά Βιβλία</secondary_category>
-		<secondary_category sub_cat="S11" category="Κ2">Μυθολογία</secondary_category>
-		<secondary_category sub_cat="S12" category="Κ2">Εγκυκλοπαιδικά Βιβλία</secondary_category>
-		<secondary_category sub_cat="S13" category="Κ3">Οικονομία</secondary_category>
-		<secondary_category sub_cat="S14" category="Κ3">Ιατρική</secondary_category>
-		<secondary_category sub_cat="S15" category="Κ3">Μαθηματικά</secondary_category>
-		<secondary_category sub_cat="S16" category="Κ3">Πληροφορική</secondary_category>
-		<secondary_category sub_cat="S17" category="Κ3">Ιστορία</secondary_category>
-		<secondary_category sub_cat="S18" category="Κ3">Αρχιτεκτονική</secondary_category>
-		<secondary_category sub_cat="S19" category="Κ3">Πολιτικές Επιστήμες και Δίκαιο</secondary_category>
+		<secondary_category sub_cat="S11" category="K2">Μυθολογία</secondary_category>
+		<secondary_category sub_cat="S12" category="K2">Εγκυκλοπαιδικά Βιβλία</secondary_category>
+		<secondary_category sub_cat="S13" category="K3">Οικονομία</secondary_category>
+		<secondary_category sub_cat="S14" category="K3">Ιατρική</secondary_category>
+		<secondary_category sub_cat="S15" category="K3">Μαθηματικά</secondary_category>
+		<secondary_category sub_cat="S16" category="K3">Πληροφορική</secondary_category>
+		<secondary_category sub_cat="S17" category="K3">Ιστορία</secondary_category>
+		<secondary_category sub_cat="S18" category="K3">Αρχιτεκτονική</secondary_category>
+		<secondary_category sub_cat="S19" category="K3">Πολιτικές Επιστήμες και Δίκαιο</secondary_category>
 		<secondary_category sub_cat="S20" category="K3">Βιολογία</secondary_category>
-		<secondary_category sub_cat="S21" category="Κ3">Ψυχολογία/Ψυχανάλυση</secondary_category>
-		<secondary_category sub_cat="S22" category="Κ3">Φυσική</secondary_category>
+		<secondary_category sub_cat="S21" category="K3">Ψυχολογία/Ψυχανάλυση</secondary_category>
+		<secondary_category sub_cat="S22" category="K3">Φυσική</secondary_category>
 		<secondary_category sub_cat="S23" category="K3">Χημεία</secondary_category>
-		<secondary_category sub_cat="S24" category="Κ3">Άλλες Επιστήμες</secondary_category>
-		<secondary_category sub_cat="S25" category="Κ4">Διδακτικές</secondary_category>
-		<secondary_category sub_cat="S26" category="Κ4">Παιδοψυχολογία</secondary_category>
-		<secondary_category sub_cat="S27" category="Κ4">Εκπαίδευση</secondary_category>
-		<secondary_category sub_cat="S28" category="Κ4">Παιδαγωγική</secondary_category>
-		<secondary_category sub_cat="S29" category="Κ4">Ειδική Αγωγή</secondary_category>
-		<secondary_category sub_cat="S30" category="Κ5">Ελληνική Ποίηση</secondary_category>
-		<secondary_category sub_cat="S31" category="Κ5">Παγκόσμια Ποίηση</secondary_category>
-		<secondary_category sub_cat="S32" category="Κ6">Αρχαία Ελληνική Φιλοσοφία</secondary_category>
-		<secondary_category sub_cat="S33" category="Κ6">Ιστορία Φιλοσοφίας</secondary_category>
-		<secondary_category sub_cat="S34" category="Κ6">Ανατολική Φιλοσοφία </secondary_category>
-		<secondary_category sub_cat="S35" category="Κ6">Φιλοσοφικά Δοκίμια</secondary_category>
-		<secondary_category sub_cat="S36" category="Κ6">Στοχασμοί</secondary_category>
+		<secondary_category sub_cat="S24" category="K3">Άλλες Επιστήμες</secondary_category>
+		<secondary_category sub_cat="S25" category="K4">Διδακτικές</secondary_category>
+		<secondary_category sub_cat="S26" category="K4">Παιδοψυχολογία</secondary_category>
+		<secondary_category sub_cat="S27" category="K4">Εκπαίδευση</secondary_category>
+		<secondary_category sub_cat="S28" category="K4">Παιδαγωγική</secondary_category>
+		<secondary_category sub_cat="S29" category="K4">Ειδική Αγωγή</secondary_category>
+		<secondary_category sub_cat="S30" category="K5">Ελληνική Ποίηση</secondary_category>
+		<secondary_category sub_cat="S31" category="K5">Παγκόσμια Ποίηση</secondary_category>
+		<secondary_category sub_cat="S32" category="K6">Αρχαία Ελληνική Φιλοσοφία</secondary_category>
+		<secondary_category sub_cat="S33" category="K6">Ιστορία Φιλοσοφίας</secondary_category>
+		<secondary_category sub_cat="S34" category="K6">Ανατολική Φιλοσοφία </secondary_category>
+		<secondary_category sub_cat="S35" category="K6">Φιλοσοφικά Δοκίμια</secondary_category>
+		<secondary_category sub_cat="S36" category="K6">Στοχασμοί</secondary_category>		
 	</Book_secondary_categories>
-	<contact_details>
-		<address>Σταδίου 35, Αθήνα</address>
-		<tel>+30 210 23643666</tel>
-		<email>xyz@outl.books.com</email>
-	</contact_details>
 	<book_list>
-		<book book_id="B1" bcategory="S36">
+		<book book_id="B1" b_category="S36">
 			<book_titles_info title="ΗΜΕΡΟΛΟΓΙΟ ΣΟΦΙΑΣ"/>
-			<best_seller>Όχι</best_seller>
-			<book_awards></book_awards>
-			<vote>
-				<username>Book_reader123</username>
-				<stars_number>5</stars_number>
-			</vote>
-			<book_authors author_id="A1"> <has_award> Ναι </has_award> </book_authors>
+			<book_authors author_id="A1" has_award="yes"/>
 			<ISBN>9789607408891</ISBN>
 			<book_descr>Το βιβλίο αυτό, έργο των τελευταίων χρόνων της ζωής του Τολστόι, είναι το βιβλίο 
 			που ο ίδιος θεωρούσε ως τη σημαντικότερη συνεισφορά του στην ανθρωπότητα. Μέσα σ' αυτό το 
@@ -86,29 +73,28 @@
 			κληρονομιά, μπορούμε να βρούμε κάποια λόγια που θα αγγίξουν τη ψυχή μας και θα μας φέρουν πιο 
 			κοντά στην ουσία των πραγμάτων.</book_descr>
 			<book_characteristics>
-				<dimensions unit="cm">14x21</dimensions>
+				<dimensions unit="cm">14x21</dimensions> 
 				<publisher publisher_year="2004">PRINTA</publisher> 
 				<pages>386</pages> 
 				<language>Ελληνικά</language> 
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">23,32</start_value> 
-				<end_value currency="euro" with_discount="yes" percent_of_discount="20">18,66</end_value>  
+				<start_value currency="euro">23.32</start_value> 
+				<end_value currency="euro" with_discount="yes" percent_of_discount="20">18.66</end_value>  
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers_and_clients"/>
 			</other_information>
+			<book_awards best_seller="no"/>
+			<reviews>
+				<username>dimitrareader</username>
+				<stars>4</stars>
+			</reviews>
 		</book>
-		<book book_id="B2" bcategory="S3">
+		<book book_id="B2" b_category="S3">
 			<book_titles_info title="ΤΟ ΔΕΜΑ"/>
-			<best_seller>Ναι</best_seller>
-			<book_awards>Κρατικό Βραβείο πρωτοεμφανιζόμενου συγγραφέα</book_awards>
-			<vote>
-				<username>Mike</username>
-				<stars_number>5</stars_number>
-			</vote>
-			<book_authors author_id="A2"> <has_award> Ναι </has_award>  </book_authors>
+			<book_authors author_id="A2" has_award="yes"/>
 			<ISBN>9789606054358</ISBN>
 			<book_descr>Τους τελευταίους μήνες, μετά το απαίσιο εκείνο γεγονός, μένεις κλεισμένη στο σπίτι σου. 
 			Θέλεις να το αφήσεις πίσω σου. Ένα πρωί, ο ταχυδρόμος σού αφήνει ένα δέμα για τον γείτονα που λείπει. 
@@ -121,20 +107,23 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">16,60</start_value>
-				<end_value currency="euro" with_discount="yes" percent_of_discount="30">11,60</end_value>
+				<start_value currency="euro">16.60</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="30">11.60</end_value>
 			</cost_information>
-			<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
+			<other_information>
+				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
+				<target target_group="clients"/>				
+			</other_information>
+			<book_awards best_seller="yes" award="Κρατικό Βραβείο πρωτοεμφανιζόμενου συγγραφέα"/>
+			<reviews>
+				<username>katedonna</username>
+				<stars>5</stars>
+				<comment>Εξαιρετικό!</comment>
+			</reviews>			
 		</book>
-		<book book_id="B3" bcategory="S3">
-			<book_titles_info book_title="ΤΟ ΒΑΣΙΛΕΙΟ" subtitle="ΔΥΟ ΑΔΕΡΦΙΑ. ΜΙΑ ΠΟΛΗ. ΤΑ ΣΚΟΤΕΙΝΑ ΜΥΣΤΙΚΑ ΜΙΑΣ ΖΩΗΣ."/>
-			<best_seller>Ναι</best_seller>
-			<book_awards>Μεγάλο Βραβείο Γραμμάτων</book_awards>
-			<vote>
-				<username></username>
-				<stars_number></stars_number>
-			</vote>
-			<book_authors author_id="A2"> <has_award> Ναι </has_award></book_authors>
+		<book book_id="B3" b_category="S3">
+			<book_titles_info title="ΤΟ ΒΑΣΙΛΕΙΟ" subtitle="ΔΥΟ ΑΔΕΡΦΙΑ. ΜΙΑ ΠΟΛΗ. ΤΑ ΣΚΟΤΕΙΝΑ ΜΥΣΤΙΚΑ ΜΙΑΣ ΖΩΗΣ."/>
+			<book_authors author_id="A2" has_award="yes"/>
 			<ISBN>9786180323054</ISBN>
 			<book_descr>ΠΑΝΤΑ ΤΟΝ ΠΡΟΣΤΑΤΕΥΕ. Από τα δεκάξι του, που χάθηκαν ξαφνικά οι γονείς τους, ο Ρόι ανέλαβε τη φροντίδα
 			του μικρού του αδελφού, του Καρλ. Μεγαλώνοντας οι δρόμοι τους χωρίστηκαν. Ο Καρλ αποφάσισε να περιπλανηθεί στον
@@ -152,24 +141,22 @@
 				<language>Ελληνικά</language>		
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">19,90</start_value>
-				<end_value with_discount="yes" percent_of_discount="10">17,91</end_value>
-				<with_discount>Ναι</with_discount>
+				<start_value currency="euro">19.90</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="10">17.91</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers"/>				
 			</other_information>
+			<book_awards best_seller="yes" award="Μεγάλο Βραβείο Γραμμάτων"/>
+			<reviews>
+				<username>kosatsathanasiou</username>
+				<stars>3</stars>
+			</reviews>			
 		</book>
-		<book book_id="B4" bcategory="S1">
-			<book_titles_info  title="ΒΑΘΥ ΒΕΛΟΥΔΙΝΟ ΣΚΟΤΑΔΙ"/>
-			<best_seller>Όχι</best_seller>
-			<book_awards> Κρατικό Βραβείο πρωτοεμφανιζόμενου συγγραφέα </book_awards>
-			<vote>
-				<username>John37</username>
-				<stars_number>5</stars_number>
-			</vote>
-			<book_authors author_id="A4"> <has_award> Όχι </has_award> </book_authors>
+		<book book_id="B4" b_category="S1">
+			<book_titles_info title="ΒΑΘΥ ΒΕΛΟΥΔΙΝΟ ΣΚΟΤΑΔΙ"/>
+			<book_authors author_id="A4" has_award="no"/>
 			<ISBN>9789601426204</ISBN>
 			<book_descr> Στην Ισπανία του 15ου αιώνα, η νεαρή χωρική Μαρία Ρεγγίνα Σίλβα καταριέται τον άρχοντα του τόπου της κόμη
 			Ραφαέλ Μιγκέλ Ρέγιες να ζει αιώνια στα σκοτάδια. Και η κατάρα της, διαπερνώντας τα τείχη του χρόνου, καταδικάζει όσους
@@ -190,24 +177,23 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,90</start_value>
-				<end_value with_discount="yes" percent_of_discount="31">6,83</end_value>
+				<start_value currency="euro">9.90</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="31">6.83</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα διαθέσιμο</diathesimotita>
+				<target target_group="teachers_and_clients"/>				
 			</other_information>	
+			<book_awards award="Κρατικό Βραβείο πρωτοεμφανιζόμενου συγγραφέα"/>
+			<reviews>
+				<username>desp1!</username>
+				<stars>4</stars>
+			</reviews>			
 		</book>
-		<book book_id="B5" bcategory="S16">
+		<book book_id="B5" b_category="S16">
 			<book_titles_info title="ΠΛΗΡΕΣ ΕΓΧΕΙΡΙΔΙΟ HTML 5 CSS &amp; JAVASCRIPT Έκδοση: 7η Έκδοση"/>
-			<best_seller>Όχι</best_seller>
-			<book_awards></book_awards>
-			<vote>
-				<username> </username>
-				<stars_number></stars_number>
-			</vote>
-			<book_authors author_id="A5 A6 A7">
-				<has_award>Ναι</has_award> 
-				<awarded_author>Jennifer Kyrnin</awarded_author>
+			<book_authors author_id="A5 A6 A7" has_award="yes">
+				<awarded_author>Rafe Colburn</awarded_author>
 				<other_partners>
 					<Translation>ΣΑΜΑΡΑΣ Β.ΓΙΑΝΝΗΣ</Translation>
 				</other_partners>
@@ -221,24 +207,21 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">52,00</start_value>
-				<end_value  with_discount="yes" percent_of_discount="10">46,80</end_value>
+				<start_value currency="euro">52.00</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="10">46.80</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="4-6">Διαθέσιμο κατόπιν παραγγελίας</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers_and_clients"/>				
 			</other_information>
+			<reviews>
+				<username>mariantouma</username>
+				<stars>2</stars>
+			</reviews>			
 		</book>
-		<book book_id="B6" bcategory="S16">
+		<book book_id="B6" b_category="S16">
 			<book_titles_info title="The Big Data-Driven Business" subtitle="How to Use Big Data to Win Customers, Beat Competitors, and Boost Profits."/>
-			<best_seller>Ναι</best_seller>
-			<book_awards></book_awards>
-			<vote>
-				<username>Kate900</username>
-				<stars_number>4</stars_number>
-			</vote>
-			<book_authors author_id="A8 A9">
-				<has_award>Ναι</has_award>
+			<book_authors author_id="A8 A9" has_award="yes">
 				<awarded_author>Callahan Sean</awarded_author>
 				<other_partners>
 					<Illustration>Illustrations S.A.</Illustration>
@@ -247,32 +230,31 @@
 			<ISBN>9781118889800</ISBN>
 			<book_descr>The book uses real-life examples-from Nate Silver to Copernicus, and Apple to Blackberry-to demonstrate how the winners of the future will use big data to seek the truth. Written by a marketing journalist and the CEO of a multi-million-dollar B2B marketing platform that reaches more than 90% of the U.S. business population, this book is a comprehensive and accessible guide on how to win customers, beat competitors, and boost the bottom line with big data. The marketplace has entered an era where the customer holds all the cards. With unprecedented choice in both the consumer world and the B2B world, it's imperative that businesses gain a greater understanding of their customers and prospects. Big data is the key to this insight, because it provides a comprehensive view of a company's customers-who they are, and who they may be tomorrow. The Big Data-Driven Business is a complete guide to the future of business as seen through the lens of big data, with expert advice on real-world applications. Learn what big data is, and how it will transform the enterprise Explore why major corporations are betting their companies on marketing technology Read case studies of big data winners and losers Discover how to change privacy and security, and remodel marketing Better information allows for better decisions, better targeting, and better reach. Big data has become an indispensable tool for the most effective marketers in the business, and it's  becoming less of a competitive advantage and more like an industry standard. Remaining relevant as the marketplace evolves requires a full understanding and application of big data, and The Big Data-Driven Business provides the practical guidance businesses need.</book_descr>
 			<book_characteristics>
-				<dimensions units="cm">25x2x15</dimensions>
+				<dimensions unit="cm">25x2x15</dimensions>
 				<publisher publisher_year="2014" publishing_country="United States">John Wiley &amp; Sons Inc</publisher>
 				<pages>224</pages>
 				<weight w_unit="gr">666</weight>
 				<language>Αγγλικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="usd">27,98</start_value>
-				<start_value currency="euro">23,49</start_value>
-				<end_value currency="usd" with_discount="no">27,98</end_value>
-				<end_value currency="euro" with_discount="no">23,49</end_value>
+				<start_value currency="usd">27.98</start_value>
+				<start_value currency="euro">23.49</start_value>
+				<end_value currency="usd" with_discount="no">27.98</end_value>
+				<end_value currency="euro" with_discount="no">23.49</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="6-10">Διαθέσιμο κατόπιν παραγγελίας.</diathesimotita>
-				<sold_to>Εκπαιδευτικοί</sold_to>
+				<target target_group="teachers"/>				
 			</other_information>
+			<book_awards best_seller="yes"/>
+			<reviews>
+				<username>thanasis</username>
+				<stars>2</stars>
+			</reviews>			
 		</book>
-		<book book_id="B7" bcategory="S16">
-			<book_titles_info title="The Annotated Turing" ubtitle="A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine."/>
-			<best_seller>Ναι</best_seller>
-			<book_awards>Κρατικό Βραβείο Ποίησης</book_awards>
-			<vote>
-				<username> </username>
-				<stars_number></stars_number>
-			</vote>
-			<book_authors author_id="A10"> <has_award>Ναι</has_award></book_authors>
+		<book book_id="B7" b_category="S16">
+			<book_titles_info title="The Annotated Turing" subtitle="A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine."/>
+			<book_authors author_id="A10" has_award="yes"/>
 			<ISBN>9780470229057</ISBN>
 			<book_descr>Programming Legend Charles Petzold unlocks the secrets of the extraordinary and prescient 1936 paper by Alan M. Turing Mathematician Alan Turing invented an imaginary  computer known as the Turing Machine; in an age before computers, he explored the concept of what it meant to be computable, creating the field of computability theory in the process, a foundation of present-day computer programming. The book expands Turing's original 36-page paper with additional background chapters and extensive annotations; the author elaborates on and clarifies many of Turing's statements, making the original difficult-to-read document accessible to present day programmers, computer science majors, math geeks, and others. Interwoven into the narrative are the highlights of Turing's own life: his years at Cambridge and Princeton, his secret work in cryptanalysis during World War II, his involvement in seminal computer projects, his speculations about artificial intelligence, his arrest and prosecution for  the crime of gross indecency, and his early death by apparent suicide at the age of 41.</book_descr>
 			<book_characteristics>
@@ -283,28 +265,26 @@
 				<language>Αγγλικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="gpb">24,81</start_value>
-				<start_value currency="euro">28,99</start_value>
-				<end_value currency="usd" with_discount="no">24,81</end_value>
-				<end_value currency="euro" with_discount="no">28,99</end_value>
+				<start_value currency="gpb">24.81</start_value>
+				<start_value currency="euro">28.99</start_value>
+				<end_value currency="usd" with_discount="no">24.81</end_value>
+				<end_value currency="euro" with_discount="no">28.99</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita>Μη διαθέσιμο.</diathesimotita>
-				<sold_to>Εκπαιδευτικοί</sold_to>
+				<target target_group="teachers"/>				
 			</other_information>
+			<book_awards best_seller="yes" award="Κρατικό Βραβείο Ποίησης"/>
+			<reviews>
+				<username>konstantinosdimos</username>
+				<stars>5</stars>
+			</reviews>			
 		</book>
-		<book book_id="B8" bcategory="S10 S11">
+		<book book_id="B8" b_category="S10 S11">
 			<book_titles_info title="ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΟΙ ΑΘΛΟΙ ΤΟΥ ΗΡΑΚΛΗ"/>
-			<best_seller>Όχι</best_seller>
-			<vote>
-				<username>Kostas178</username>
-				<stars_number>4</stars_number>
-			</vote>
-			<book_awards></book_awards>
-			<book_authors author_id="A11">
-				<has_award>Ναι</has_award>
+			<book_authors author_id="A11" has_award="no">
 				<other_partners>
-					<illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</illustration>
+					<Illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</Illustration>
 				</other_partners>
 			</book_authors>
 			<ISBN>9786180207446</ISBN>
@@ -320,24 +300,23 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,99</start_value>
-				<end_value with_discount="yes" percent_of_discount="30">6,98</end_value>
+				<start_value currency="euro">9.99</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6.98</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα Διαθέσιμο.</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers_and_clients"/>				
 			</other_information>
+			<book_awards best_seller="no"/>
+			<reviews>
+				<username>katerinaki45</username>
+				<stars>3</stars>
+				<comment>Προσιτή τιμή για ένα ξεχωριστό βιβλίο</comment>
+			</reviews>			
 		</book>
-		<book book_id="B9" bcategory="S10 S11">
-			<book_titles_info  title="ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΔΑΙΔΑΛΟΣ ΚΑΙ ΙΚΑΡΟΣ"/>
-			<best_seller>Όχι</best_seller>
-			<book_awards></book_awards>
-			<vote>
-				<username>Vicky88</username>
-				<stars_number>4</stars_number>
-			</vote>
-			<book_authors author_id="A11">
-				<has_award>Ναι</has_award>
+		<book book_id="B9" b_category="S10 S11">
+			<book_titles_info title="ΓΝΩΡΙΖΩ ΤΗ ΜΥΘΟΛΟΓΙΑ ΔΑΙΔΑΛΟΣ ΚΑΙ ΙΚΑΡΟΣ"/>
+			<book_authors author_id="A11" has_award="no">
 				<other_partners>
 					<Illustration>ΤΣΙΛΗΣ ΘΑΝΟΣ</Illustration>
 				</other_partners>
@@ -354,24 +333,22 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">9,99</start_value>
-				<end_value with_discount="yes" percent_of_discount="30">6,98</end_value>
+				<start_value currency="euro">9.99</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="30">6.98</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3"> Άμεσα Διαθέσιμο.</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers_and_clients"/>				
 			</other_information>
+			<book_awards/>
+			<reviews>
+				<username>tr1antafyllaki</username>
+				<stars>5</stars>
+			</reviews>			
 		</book>
-		<book book_id="B10" bcategory="S5">
+		<book book_id="B10" b_category="S5">
 			<book_titles_info title="Ο ΜΙΚΡΟΣ ΠΡΙΓΚΙΠΑΣ"/>
-			<best_seller>Ναι</best_seller>
-			<book_awards>Κρατικό Βραβείο Διηγήματος - Νουβέλας»</book_awards>
-			<vote>
-				<username>Nikos495</username>
-				<stars_number>5</stars_number>
-			</vote>
-			<book_authors author_id="A12">
-				<has_award>Ναι</has_award>
+			<book_authors author_id="A12" has_award="yes">
 				<other_partners>
 					<Translation>ΚΑΡΑΚΩΣΤΑ ΜΕΛΙΝΑ</Translation>
 				</other_partners>
@@ -388,13 +365,23 @@
 				<language>Ελληνικά</language>
 			</book_characteristics>
 			<cost_information>
-				<start_value currency="euro">6,47</start_value>
-				<end_value with_discount="yes" percent_of_discount="31">4,46</end_value>
+				<start_value currency="euro">6.47</start_value>
+				<end_value currency="euro" with_discount="yes" percent_of_discount="31">4.46</end_value>
 			</cost_information>
 			<other_information>
 				<diathesimotita apostoli_se="1-3">Άμεσα Διαθέσιμο.</diathesimotita>
-				<sold_to>Εκπαιδευτικοί και απλοί πελάτες</sold_to>
+				<target target_group="teachers_and_clients"/>				
 			</other_information>
+			<book_awards best_seller="yes" award="Κρατικό Βραβείο Διηγήματος - Νουβέλας"/>
+			<reviews>
+				<username>hayleyioannou</username>
+				<stars>5</stars>
+			</reviews>			
 		</book>		
 	</book_list>
-</online_bookshop> 
+	<contact_details>
+		<address>Σταδίου 35, Αθήνα</address>
+		<tel>+30 210 23643666</tel>
+		<email>xyz@outl.books.com</email>
+	</contact_details>
+</online_bookshop>
