@@ -1,0 +1,20 @@
+book{
+display: block;
+font-family: Times
+font-size: 16px;
+color: blue;
+background-color: red;
+margin-bottom: 6px;
+width: 200px;
+padding: 26;
+border: outset;
+text-align: center;
+font-style: italic;
+font-weight: bold;
+position: absolute;
+top: 80;
+left: 95;
+}
+title, subtitle, book_authors, ISBNk_descr, book_charateristics, cost_information, other_information
+{display: block; font-size: 12pt; font-weight: bold; font-style: italic}
+title{font-style: normal}
