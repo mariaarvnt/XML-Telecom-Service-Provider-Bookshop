@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE online_bookshop SYSTEM "online_bookshop_new2.dtd">
 <online_bookshop free_ship="Δωρεάν μεταφορικά σε παραγγελίες βιβλίων από 14,50">
 	<name>XYZ ONLINE BOOKSHOP</name>
 	<author_list>
@@ -153,6 +154,10 @@
 				<username>kosatsathanasiou</username>
 				<stars>3</stars>
 			</reviews>			
+			<reviews>
+				<username>lilian34</username>
+				<stars>4</stars>
+			</reviews>			
 		</book>
 		<book book_id="B4" b_category="S1">
 			<book_titles_info title="ΒΑΘΥ ΒΕΛΟΥΔΙΝΟ ΣΚΟΤΑΔΙ"/>
@@ -251,6 +256,10 @@
 				<username>thanasis</username>
 				<stars>2</stars>
 			</reviews>			
+			<reviews>
+				<username>user16757</username>
+				<stars>4</stars>
+			</reviews>			
 		</book>
 		<book book_id="B7" b_category="S16">
 			<book_titles_info title="The Annotated Turing" subtitle="A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine."/>
@@ -344,6 +353,14 @@
 			<reviews>
 				<username>tr1antafyllaki</username>
 				<stars>5</stars>
+			</reviews>			
+			<reviews>
+				<username>kosatsathanasiou</username>
+				<stars>4</stars>
+			</reviews>			
+			<reviews>
+				<username>faih123</username>
+				<stars>3</stars>
 			</reviews>			
 		</book>
 		<book book_id="B10" b_category="S5">
