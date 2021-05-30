@@ -47,6 +47,7 @@
 	<!ELEMENT validity_period EMPTY>
 	<!ELEMENT offer_contract_commitment (#PCDATA)>
 	<!ELEMENT bonus (#PCDATA)>
+
 	<!ATTLIST telecom_service_provider brand_name CDATA #REQUIRED>
 	<!ATTLIST telecom_service_provider establishment_year CDATA #REQUIRED>
 	<!ATTLIST program code ID #REQUIRED>
@@ -59,7 +60,7 @@
 	<!ATTLIST new_sim new_sim_price CDATA #IMPLIED>
 	<!ATTLIST new_router router_model CDATA #REQUIRED>
 	<!ATTLIST new_decoder decoder_model CDATA #REQUIRED>
-    <!ATTLIST TV_channels channel_number (yes|no) #REQUIRED>
+    <!ATTLIST TV_channels channel_number CDATA #REQUIRED>
 	<!ATTLIST TV_channels kids_program (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels sports (yes|no) #REQUIRED>
 	<!ATTLIST TV_channels filmcase (yes|no) "no">
@@ -251,7 +252,7 @@
 	</program_list>
 
 	<combinational_program_offer_list>
-		<combinational_program_offer  offer_program_code="M1 M2" offer_price="35.99" VAT_price="24%" client="old_client">
+		<combinational_program_offer  offer_program_code="M1 M2" offer_price="35.99" VAT_price="24" client="old_client">
 			<validity_period from="2021-01-01" to="2022-01-01"/>
 			<offer_contract_commitment>
 				48 months
@@ -260,7 +261,7 @@
 				iPhone 12 Pro Max
 			</bonus>
 		</combinational_program_offer>
-		<combinational_program_offer  offer_program_code="H1" offer_price="32.99" VAT_price="24%" client="new_client">
+		<combinational_program_offer  offer_program_code="H1" offer_price="32.99" VAT_price="24" client="new_client">
 			<validity_period from="2021-02-21" to="2022-02-21"/>
 			<offer_contract_commitment>
 				48 months
