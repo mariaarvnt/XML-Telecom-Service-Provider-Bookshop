@@ -30,6 +30,12 @@ book{
 	
 }
 
+book_titles_info{
+ display: block;
+ }
+
+book_titles_info:before { content: "Τίτλος βιβλίου: " attr(title); color: Teal; padding-right: 30px; }
+
  ISBN{
 	 display: block;
  }
@@ -72,20 +78,45 @@ book{
 	 display: block;
  }
  start_value::before{content: "Αρχική τιμή: ";}
- start_value::after{content: " euro";}
+ start_value[currency~="euro"]::after{content: " euro";}
+ start_value[currency~="usd"]::after{content: " usd";}
+ start_value[currency~="gpb"]::after{content: " gpb";}
  
+start_value[currency~="euro"] {
+  color:red;
+}
+start_value[currency~="usd"] {
+  color:green;
+}
+
+start_value[currency~="gpb"] {
+  color:green;
+}
+
  end_value{
 	 display: block;
  }
  
  end_value::before{content:"Τελική τιμή: ";}
- end_value::after{content:" euro";}
+ end_value[currency~="euro"]::after{content:" euro";}
+ end_value[currency~="usd"]::after{content:" usd";}
+ end_value[currency~="gpb"]::after{content:" gpb";}
  
+end_value[currency~="euro"] {
+  color:red;
+}
+end_value[currency~="usd"] {
+  color:green;
+}
+
+end_value[currency~="gpb"] {
+  color:green;
+}
+
 diathesimotita{
 	display: block;
 }
 diathesimotita::before{content: "Διαθεσιμότητα: "}
-
 
 
 Translation{
