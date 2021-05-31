@@ -1,45 +1,113 @@
+online_bookshop{
+	display: block;
+}
 
-book_list{
-background-color:red;
-width:100%;
+book_category {
+  visibility: hidden;
 }
+secondary_category{
+	visibility: hidden;
+}
+
+
+name{
+	display: block;
+	font-size: large;
+	font-weight: bold;
+	font-style:italic;
+	text-align: center;
+	color: MediumOrchid;
+}
+
 book{
-display:block;
-margin-bottom: 6px;
-text-align: center;
-font-style:italic;
-font-weight:bold;
-position: absolute;
+	display: block;
+	background-color: pink;
+	width: 100%;
+	padding: 2%;
+	border: outset;
+	text-align: center;
+	color: Teal;
+	
 }
-title{
-color: blue;
-font-size: 20pt;
+
+ ISBN{
+	 display: block;
+ }
+ 
+ ISBN::before{content: "ISBN: ";}
+ 
+ 
+ 
+ book_descr{
+	 display: block;
+ }
+ 
+ book_descr::before{content: "Περιγραφή βιβλίου: ";}
+ 
+ 
+ dimensions{
+	 display: block;
+ }
+ 
+ dimensions::before{content: "Διαστάσεις: ";}
+ 
+ 
+ publisher{
+	 display: block;
+ }
+ publisher::before{content: "Εκδότης: ";}
+ 
+ 
+ pages{
+	 display: block;
+ }
+ pages::before{content: "Αριθμός σελίδων: ";}
+ 
+ language{
+	 display: block;
+ }
+ language::before{content: "Γλώσσα: ";}
+ 
+ start_value{
+	 display: block;
+ }
+ start_value::before{content: "Αρχική τιμή: ";}
+ start_value::after{content: " euro";}
+ 
+ end_value{
+	 display: block;
+ }
+ 
+ end_value::before{content:"Τελική τιμή: ";}
+ end_value::after{content:" euro";}
+ 
+diathesimotita{
+	display: block;
 }
-subtitle{
-color: blue;
-font-size: 20pt;
+diathesimotita::before{content: "Διαθεσιμότητα: "}
+
+
+
+Translation{
+	display: block;
 }
-book_authors{
-color: blue;
-font-size: 20pt;
+
+Translation::before{content:"Μετάφραση: "}
+
+
+Illustration{
+	display: block;
 }
-ISBN{
-color: blue;
-font-size: 20pt;
+
+Translation::before{content: " Εικονογράφηση: "}
+
+weight{
+	display: block;
 }
-book_descr{
-color: blue;
-font-size: 20pt;
-}
-book_charateristics{
-color: blue;
-font-size: 20pt;
-}
-cost_information{
-color: blue;
-font-size: 20pt;
-}
-other_information{
-color: blue;
-font-size: 20pt;
+
+weight::before{content: "Βάρος: "}
+weight::after{content: " gr"}
+
+contact_details{
+	color: grey;
 }
