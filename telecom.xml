@@ -205,6 +205,9 @@
 				<home_national_calls_a>
 					150
 				</home_national_calls_a>
+				<remaining>
+					150
+				</remaining>
 				<international_calls>
 					55
 					<countries consumption="mobile">
