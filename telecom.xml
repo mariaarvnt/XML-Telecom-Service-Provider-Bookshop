@@ -76,6 +76,8 @@
 
 ]>
 <telecom_service_provider brand_name="Everywhere" establishment_year="1999">
+<!--<telecom_service_provider brand_name="Everywhere" establishment_year="1999" xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com telecom.xsd">-->
 	<program_list>
 		<program code="M1">
 			<program_name category="mobile" belongsto="BDCOM">
@@ -185,8 +187,8 @@
 					34.99
 				</client_prices>
 			</prices_list>
-
 		</program>
+
 		<program code="M2">
 			<program_name category="mobile" belongsto="DCDOM">
 				Mobile Plus 1
@@ -249,8 +251,46 @@
 					22.99
 				</client_prices>
 			</prices_list>
-
 		</program>
+
+		<program code="TV1">
+			<program_name category="TV" belongsto="TELEH">
+				TV All Included 1
+			</program_name>
+			<program_services_package>
+				<TV_channels channel_number="120" kids_program="yes" sports="yes" filmcase="no"/>
+			</program_services_package>
+			<contract_commitment>
+					12 months
+			</contract_commitment>
+			<new_decoder  decoder_model="ADFHRYSJDK1UW5HW76">
+				Provided if something is wrong with the old one. 
+			</new_decoder>
+			<benefits_list benefits_number="1">
+				<benefit>
+					fixed costs
+				</benefit>
+				<benefit>
+					new antenna
+				</benefit>
+			</benefits_list>
+			<prices_list>
+				<client_prices client="new_client">
+					43.99
+				</client_prices>
+				<client_prices client="old_client">
+					45.99
+				</client_prices>
+				<client_prices client="company">
+					42.99
+				</client_prices>
+			</prices_list>
+			<additional_charges_list>
+				<installation_fees>
+					50 euro
+				</installation_fees>
+			</additional_charges_list>
+		</program>		
 
 	</program_list>
 
