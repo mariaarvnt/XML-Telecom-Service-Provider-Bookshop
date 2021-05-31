@@ -90,27 +90,26 @@
       <xs:sequence>
         <xs:choice>
           <xs:sequence>
-            <xs:element ref="home_national_calls"/>
-            <xs:element ref="mobile_national_calls"/>
+            <xs:element ref="home_national_calls" minOccurs="0"/>
+            <xs:element ref="mobile_national_calls" minOccurs="0"/>
           </xs:sequence>
           <xs:sequence>
-            <xs:element ref="data"/>
-            <xs:element ref="mobile_calls_same"/>
-            <xs:element ref="home_calls_same"/>
-            <xs:element ref="home_national_calls_a"/>
+            <xs:element ref="data" minOccurs="0"/>
+            <xs:element ref="mobile_calls_same" minOccurs="0"/>
+            <xs:element ref="home_calls_same" minOccurs="0"/>
+            <xs:element ref="home_national_calls_a" minOccurs="0"/>
             <xs:element ref="remaining" minOccurs="0"/>
           </xs:sequence>
-            <xs:element ref="TV_channels"/>
         </xs:choice>
-        <xs:element ref="international_calls"/>
+        <xs:element ref="international_calls" minOccurs="0"/>
         <xs:choice>
-          <xs:element ref="speed"/>
+          <xs:element ref="speed" minOccurs="0"/>
           <xs:sequence>
-            <xs:element ref="sms_same"/>
-            <xs:element ref="sms_national"/>
-            <xs:element ref="sms_international"/>
+            <xs:element ref="sms_same" minOccurs="0"/>
+            <xs:element ref="sms_national" minOccurs="0"/>
+            <xs:element ref="sms_international" minOccurs="0"/>
           </xs:sequence>
-            <xs:element ref="TV_channels"/>
+            <xs:element ref="TV_channels" minOccurs="0"/>
         </xs:choice>
       </xs:sequence>
     </xs:complexType>
@@ -134,7 +133,7 @@
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="country_name"/>
       </xs:sequence>
-      <xs:attribute name="consumption" use="required">
+      <xs:attribute name="consumption" default="home">
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:enumeration value="mobile"/>
@@ -153,8 +152,8 @@
   <xs:element name="contract_commitment" type="xs:string"/>
   <xs:element name="new_sim">
     <xs:complexType>
-      <xs:attribute name="new_sim_price" use="required" type="xs:integer"/>
-      <xs:attribute name="provides_new_sim" use="required">
+      <xs:attribute name="new_sim_price" use="optional" type="xs:integer"/>
+      <xs:attribute name="provides_new_sim" default="no">
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:enumeration value="yes"/>
@@ -165,12 +164,12 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="new_router">
-    <xs:complexType>
+    <xs:complexType mixed="true">
       <xs:attribute name="router_model" use="required" type="xs:string"/> 
     </xs:complexType>
   </xs:element>
   <xs:element name="new_decoder">
-    <xs:complexType>
+    <xs:complexType mixed="true">
       <xs:attribute name="decoder_model" use="required" type="xs:string"/> 
     </xs:complexType>
   </xs:element>
@@ -193,7 +192,7 @@
             </xs:restriction>
         </xs:simpleType>
       </xs:attribute> 
-      <xs:attribute name="filmcase" use="required">
+      <xs:attribute name="filmcase" default="no">
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:enumeration value="yes"/>
