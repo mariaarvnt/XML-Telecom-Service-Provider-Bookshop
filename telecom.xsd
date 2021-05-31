@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="telecom_service_provider">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="program_list"/>
+        <xs:element ref="combinational_program_offer_list"/>
+      </xs:sequence>
+      <xs:attribute name="brand_name" use="required" type="xs:string"/>
+      <xs:attribute name="establishment_year" use="required" type="xs:gYear"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="program_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="program"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="program">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="program_name"/>
+        <xs:choice>
+          <xs:element  minOccurs="0" ref="secondary_home_teleph_and_internet_categ"/>
+          <xs:element  minOccurs="0" ref="secondary_mobile_categ"/>
+        </xs:choice>
+        <xs:element ref="program_services_package"/>
+        <xs:element ref="contract_commitment"/>
+        <xs:choice>
+            <xs:element minOccurs="0" ref="new_sim"/>
+            <xs:element minOccurs="0" ref="new_router"/>
+            <xs:element minOccurs="0" ref="new_decoder"/>
+        </xs:choice>
+        <xs:element ref="benefits_list"/>
+        <xs:element ref="prices_list"/>
+        <xs:element  minOccurs="0" ref="additional_charges_list"/>
+      </xs:sequence>
+      <xs:attribute name="code" use="required" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="program_name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="belongsto" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][A-Z][A-Z][A-Z][A-Z]"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="category" default="mobile">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="mobile"/>
+                <xs:enumeration value="home_teleph_and_internet"/>
+                <xs:enumeration value="TV"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="secondary_home_teleph_and_internet_categ">
+    <xs:complexType>
+      <xs:attribute name="value_info_h" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="GigaFiber"/>
+                <xs:enumeration value="VDSL"/>
+                <xs:enumeration value="ADSL"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>      
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="secondary_mobile_categ">
+    <xs:complexType>
+      <xs:attribute name="value_info_m" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="contract"/>
+                <xs:enumeration value="card_program"/>
+                <xs:enumeration value="prepaid"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="program_services_package">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:sequence>
+            <xs:element ref="home_national_calls"/>
+            <xs:element ref="mobile_national_calls"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="data"/>
+            <xs:element ref="mobile_calls_same"/>
+            <xs:element ref="home_calls_same"/>
+            <xs:element ref="home_national_calls_a"/>
+            <xs:element ref="remaining" minOccurs="0"/>
+          </xs:sequence>
+            <xs:element ref="TV_channels"/>
+        </xs:choice>
+        <xs:element ref="international_calls"/>
+        <xs:choice>
+          <xs:element ref="speed"/>
+          <xs:sequence>
+            <xs:element ref="sms_same"/>
+            <xs:element ref="sms_national"/>
+            <xs:element ref="sms_international"/>
+          </xs:sequence>
+            <xs:element ref="TV_channels"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="home_national_calls" type="xs:integer"/>
+  <xs:element name="mobile_national_calls" type="xs:integer"/>
+  <xs:element name="data" type="xs:string"/>
+  <xs:element name="mobile_calls_same" type="xs:integer"/>
+  <xs:element name="home_calls_same" type="xs:integer"/>
+  <xs:element name="home_national_calls_a" type="xs:integer"/>
+  <xs:element name="remaining" type="xs:integer"/>
+  <xs:element name="international_calls">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="countries"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="countries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="country_name"/>
+      </xs:sequence>
+      <xs:attribute name="consumption" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="mobile"/>
+                <xs:enumeration value="home"/>
+                <xs:enumeration value="home_and_mobile"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>      
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="country_name" type="xs:string"/>
+  <xs:element name="speed" type="xs:string"/>
+  <xs:element name="sms_same" type="xs:integer"/>
+  <xs:element name="sms_national" type="xs:integer"/>
+  <xs:element name="sms_international" type="xs:integer"/>
+  <xs:element name="contract_commitment" type="xs:string"/>
+  <xs:element name="new_sim">
+    <xs:complexType>
+      <xs:attribute name="new_sim_price" use="required" type="xs:integer"/>
+      <xs:attribute name="provides_new_sim" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>           
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="new_router">
+    <xs:complexType>
+      <xs:attribute name="router_model" use="required" type="xs:string"/> 
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="new_decoder">
+    <xs:complexType>
+      <xs:attribute name="decoder_model" use="required" type="xs:string"/> 
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TV_channels">
+    <xs:complexType>
+      <xs:attribute name="channel_number" use="required" type="xs:integer"/>
+      <xs:attribute name="kids_program" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>         
+      <xs:attribute name="sports" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute> 
+      <xs:attribute name="filmcase" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute> 
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="benefits_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="benefit"/>
+      </xs:sequence>
+      <xs:attribute name="benefits_number" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prices_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="client_prices"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="client_prices">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="client" use="required">
+            <xs:simpleType>
+             <xs:restriction base="xs:string">
+                <xs:enumeration value="new_client"/>
+                <xs:enumeration value="old_client"/>
+                <xs:enumeration value="company"/>
+             </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute> 
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="additional_charges_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="activation_fees"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="installation_fees"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="benefit" type="xs:string"/>
+  <xs:element name="activation_fees" type="xs:string"/>
+  <xs:element name="installation_fees" type="xs:string"/>
+  <xs:element name="combinational_program_offer_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="combinational_program_offer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="combinational_program_offer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="validity_period"/>
+        <xs:element ref="offer_contract_commitment"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bonus"/>
+      </xs:sequence>
+      <xs:attribute name="offer_price" use="required" type="xs:decimal"/>
+      <xs:attribute name="offer_program_code" use="required" type="xs:IDREFS"/>
+      <xs:attribute name="VAT_price" use="required">
+       <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:minInclusive value="0"/>
+          <xs:maxInclusive value="100"/>
+        </xs:restriction>
+       </xs:simpleType>
+      </xs:attribute>       
+      <xs:attribute name="client" use="required">
+       <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="new_client"/>
+                <xs:enumeration value="old_client"/>
+                <xs:enumeration value="company"/>
+            </xs:restriction>
+       </xs:simpleType>
+      </xs:attribute> 
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="validity_period">
+    <xs:complexType>
+      <xs:attribute name="from" use="required" type="xs:date"/>
+      <xs:attribute name="to" use="required" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offer_contract_commitment" type="xs:string"/>
+  <xs:element name="bonus">
+    <xs:complexType mixed="true">
+      <xs:attribute name="bonus_category" use="optional" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
