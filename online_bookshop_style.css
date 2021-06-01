@@ -83,14 +83,14 @@ book_titles_info:before { content: "Τίτλος βιβλίου: " attr(title); 
  start_value[currency~="gpb"]::after{content: " gpb";}
  
 start_value[currency~="euro"] {
-  color:red;
+  
 }
 start_value[currency~="usd"] {
-  color:green;
+  
 }
 
 start_value[currency~="gpb"] {
-  color:green;
+  
 }
 
  end_value{
@@ -103,14 +103,14 @@ start_value[currency~="gpb"] {
  end_value[currency~="gpb"]::after{content:" gpb";}
  
 end_value[currency~="euro"] {
-  color:red;
+ 
 }
 end_value[currency~="usd"] {
-  color:green;
+  
 }
 
 end_value[currency~="gpb"] {
-  color:green;
+
 }
 
 diathesimotita{
