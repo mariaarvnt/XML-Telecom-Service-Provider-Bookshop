@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="telecom_style.css"?>
 <!DOCTYPE telecom_service_provider [
 	<!ELEMENT telecom_service_provider (program_list, combinational_program_offer_list)>
 	<!ELEMENT program_list (program)+>
@@ -189,6 +190,108 @@
 			</prices_list>
 		</program>
 
+		<program code="M2">
+			<program_name category="mobile" belongsto="DCDOM">
+				Mobile Plus 1
+			</program_name>
+			<secondary_mobile_categ value_info_m="card_program"/>
+			<program_services_package>
+				<data>
+					3500MB
+				</data>
+				<mobile_calls_same>
+					800
+				</mobile_calls_same>
+				<home_calls_same>
+					200
+				</home_calls_same>
+				<home_national_calls_a>
+					150
+				</home_national_calls_a>
+				<remaining>
+					150
+				</remaining>
+				<international_calls>
+					55
+					<countries consumption="mobile">
+						<country_name>
+							England
+						</country_name>
+						<country_name>
+							France
+						</country_name>
+					</countries>
+				</international_calls>
+				<sms_same>
+					85
+				</sms_same>
+				<sms_national>
+					25
+				</sms_national>
+				<sms_international>
+					15
+				</sms_international>
+			</program_services_package>
+			<contract_commitment>
+				24 months
+			</contract_commitment>
+			<new_sim provides_new_sim="yes" new_sim_price="5"/>
+			<benefits_list benefits_number="2">
+				<benefit>
+					1+1 deals for restaurants, museums, etc
+				</benefit>
+				<benefit>
+					24hour service
+				</benefit>
+			</benefits_list>
+			<prices_list>
+				<client_prices client="new_client">
+					25.99
+				</client_prices>
+				<client_prices client="company">
+					22.99
+				</client_prices>
+			</prices_list>
+		</program>
+
+		<program code="TV1">
+			<program_name category="TV" belongsto="TELEH">
+				TV All Included 1
+			</program_name>
+			<program_services_package>
+				<TV_channels channel_number="120" kids_program="yes" sports="yes" filmcase="no"/>
+			</program_services_package>
+			<contract_commitment>
+					12 months
+			</contract_commitment>
+			<new_decoder  decoder_model="ADFHRYSJDK1UW5HW76">
+				Provided if something is wrong with the old one. 
+			</new_decoder>
+			<benefits_list benefits_number="1">
+				<benefit>
+					fixed costs
+				</benefit>
+				<benefit>
+					new antenna
+				</benefit>
+			</benefits_list>
+			<prices_list>
+				<client_prices client="new_client">
+					43.99
+				</client_prices>
+				<client_prices client="old_client">
+					45.99
+				</client_prices>
+				<client_prices client="company">
+					42.99
+				</client_prices>
+			</prices_list>
+			<additional_charges_list>
+				<installation_fees>
+					50 euro
+				</installation_fees>
+			</additional_charges_list>
+		</program>		
 	</program_list>
 
 	<combinational_program_offer_list>
@@ -200,6 +303,13 @@
 			<bonus bonus_category="device" bonus_pic="iphone12pm_pic">
 				iPhone 12 Pro Max
 			</bonus>
+		</combinational_program_offer>
+		</combinational_program_offer>
+		<combinational_program_offer  offer_program_code="H1" offer_price="32.99" VAT_price="24" client="new_client">
+			<validity_period from="2021-02-21" to="2022-02-21"/>
+			<offer_contract_commitment>
+				48 months
+			</offer_contract_commitment>
 		</combinational_program_offer>
 		
 	</combinational_program_offer_list>
