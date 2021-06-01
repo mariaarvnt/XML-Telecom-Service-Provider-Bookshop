@@ -36,6 +36,13 @@ book_titles_info{
 
 book_titles_info:before { content: "Τίτλος βιβλίου: " attr(title); color: Teal; padding-right: 30px; }
 
+book_authors{
+ display: block;
+ }
+
+book_authors:before{ content: "Συγγραφείς: " attr(author_id); author.attr(aname); color: Teal; padding-right: 30px; }
+
+
  ISBN{
 	 display: block;
  }
