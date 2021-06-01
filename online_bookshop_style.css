@@ -130,7 +130,7 @@ Illustration{
 	display: block;
 }
 
-Translation::before{content: " Εικονογράφηση: "}
+Illustration::before{content: " Εικονογράφηση: "}
 
 weight{
 	display: block;
